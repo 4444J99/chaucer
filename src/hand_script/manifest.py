@@ -67,7 +67,10 @@ def validate(data: dict[str, Any]) -> Manifest:
         raise ManifestError("project must be a string")
     if not isinstance(data["space"], dict):
         raise ManifestError("space must be an object")
-    for section in ("threads", "computer_followups", "lineage", "components"):
+    sections = ["threads", "computer_followups", "lineage", "components"]
+    if "corpora" in data:
+        sections.append("corpora")
+    for section in sections:
         items = data[section]
         if not isinstance(items, list):
             raise ManifestError(f"{section} must be an array")
@@ -82,7 +85,7 @@ def validate(data: dict[str, Any]) -> Manifest:
         if not LINEAGE_ID.match(str(item.get("id"))):
             raise ManifestError(f"lineage[{n}].id {item.get('id')!r} is not perplexity-<8 hex>")
     for n, corpus in enumerate(data.get("corpora", [])):
-        missing = [k for k in CORPUS_KEYS if not isinstance(corpus, dict) or not corpus.get(k)]
+        missing = [k for k in CORPUS_KEYS if not corpus.get(k)]
         if missing:
             raise ManifestError(f"corpora[{n}] missing {missing}")
     manifest = Manifest(data)

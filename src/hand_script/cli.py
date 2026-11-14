@@ -90,7 +90,8 @@ def _cmd_ingest_corpus(args: argparse.Namespace) -> int:
         f"{summary['passed']}/{summary['total']} lines pass ({summary['pass_rate']:.2%})",
         file=sys.stderr,
     )
-    if args.min_pass_rate is not None and summary["pass_rate"] < args.min_pass_rate:
+    exact_rate = summary["passed"] / summary["total"]  # the report's pass_rate is rounded
+    if args.min_pass_rate is not None and exact_rate < args.min_pass_rate:
         print(f"pass rate below --min-pass-rate {args.min_pass_rate}", file=sys.stderr)
         return 1
     return 0

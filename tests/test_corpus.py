@@ -158,3 +158,27 @@ def test_manifest_rejects_corpus_entry_missing_fields():
     data["corpora"] = [{"id": "x"}]
     with pytest.raises(manifest.ManifestError, match="corpora"):
         manifest.validate(data)
+
+
+@pytest.mark.parametrize("bad", [{}, "", None, 5])
+def test_manifest_rejects_non_array_corpora(bad):
+    data = manifest.load().data
+    data["corpora"] = bad
+    with pytest.raises(manifest.ManifestError, match="corpora must be an array"):
+        manifest.validate(data)
+
+
+def test_manifest_rejects_non_object_corpus_entry():
+    data = manifest.load().data
+    data["corpora"] = ["x"]
+    with pytest.raises(manifest.ManifestError, match=r"corpora\[0\] must be an object"):
+        manifest.validate(data)
+
+
+def test_min_pass_rate_compares_unrounded_rate(tmp_path, capsys):
+    # 631/860 = 0.733720..., reported as 0.7337; 0.73371 is below the true rate
+    assert main(["ingest-corpus", str(CORPUS), "-o", str(tmp_path / "r.json"),
+                 "--min-pass-rate", "0.73371"]) == 0  # fmt: skip
+    assert main(["ingest-corpus", str(CORPUS), "-o", str(tmp_path / "r.json"),
+                 "--min-pass-rate", "0.73373"]) == 1  # fmt: skip
+    capsys.readouterr()
