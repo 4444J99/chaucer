@@ -1,0 +1,49 @@
+{
+  "schema": "hand-script.manifest/1",
+  "project": "hand-script",
+  "description": "Source threads for the hand-script project: a handwriting-practice and linguistics curriculum Space (writing systems, etymological roots, 18 languages in nine families) that moved on 2026-11-10 toward a Middle English corpus and generation pipeline.",
+  "provenance": {
+    "repo": "4444J99/titan",
+    "path": ".claude/plans/2026-11-14-owner-goals-r6.md",
+    "section": "3. hand-script and Middle English generation",
+    "retrieved": "2026-11-14",
+    "note": "Thread titles and bodies are not recorded here: only the identifiers cited by the owner-goals file. The seeding thread's owner words are quoted in the goals file; the owner's typed November prompts are not locally recoverable."
+  },
+  "space": {
+    "platform": "perplexity",
+    "id": "053d129c-8941-4aa7-8dde-61aede81813d",
+    "role": "owner space"
+  },
+  "threads": [
+    {"id": "0a7dad6d-8f2f-4c64-8b80-6279521a4194", "platform": "perplexity", "kind": "thread"},
+    {"id": "021ebcdc-1d87-4e2d-a339-e4d4e70ecc2a", "platform": "perplexity", "kind": "thread"},
+    {"id": "3b98b8a1-6241-4e0f-a7d8-877a2187cd0e", "platform": "perplexity", "kind": "thread"},
+    {"id": "4826f815-8947-41d6-9311-15a903f09d3f", "platform": "perplexity", "kind": "thread"},
+    {"id": "5e65736a-3dc6-4889-b78b-b741a0813280", "platform": "perplexity", "kind": "thread"},
+    {"id": "8731a6a7-2f3c-4faf-957c-48f14c3792ce", "platform": "perplexity", "kind": "thread"},
+    {"id": "1a777f46-6379-406e-99ac-f2c52c318db2", "platform": "perplexity", "kind": "thread"}
+  ],
+  "computer_followups": [
+    {"id": "3662495e-fb0d-4192-b7bb-87bc4787685d", "platform": "perplexity", "kind": "computer-followup", "date": "2026-11-10"},
+    {"id": "ee67da89-8a05-440e-bd9e-fb6e6d926cea", "platform": "perplexity", "kind": "computer-followup", "date": "2026-11-10"},
+    {"id": "4417e674-ad3e-4cdf-9ffb-1ddbcff9bbc1", "platform": "perplexity", "kind": "computer-followup", "date": "2026-11-10"}
+  ],
+  "lineage": [
+    {"id": "perplexity-8cd6edba", "platform": "perplexity", "topic": "Chaucer", "date": "2025-11-28"},
+    {"id": "perplexity-ed9afb35", "platform": "perplexity", "topic": "Chaucer", "date": "2025-11-28"},
+    {"id": "perplexity-2d71eed2", "platform": "perplexity", "topic": "Chaucer", "date": "2025-11-28"},
+    {"id": "perplexity-950fc2e4", "platform": "perplexity", "topic": "Chaucer", "date": "2025-11-28"},
+    {"id": "perplexity-a7afcc04", "platform": "perplexity", "topic": "Chaucer", "date": "2025-11-28"}
+  ],
+  "observed_preview_artifacts": [
+    "chaucer-canterbury-app (site preview image)",
+    "hand-script-project-status.md (preview image)"
+  ],
+  "components": [
+    {"name": "phonological transcriber", "module": "hand_script.middle_english.phonology", "status": "implemented"},
+    {"name": "final -e scansion validator", "module": "hand_script.middle_english.scansion", "status": "implemented"},
+    {"name": "project manifest", "module": "hand_script.manifest", "status": "implemented"},
+    {"name": "Middle English corpus ingest", "module": null, "status": "not started"},
+    {"name": "generation pipeline", "module": null, "status": "not started"}
+  ]
+}

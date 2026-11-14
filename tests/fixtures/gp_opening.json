@@ -1,0 +1,162 @@
+{
+  "source": "Geoffrey Chaucer, Canterbury Tales, General Prologue, ll. 1-11 (public domain; normalised Riverside-style spelling, punctuation lightly normalised)",
+  "notes": [
+    "Expected values were derived by hand from the elision rules before the engine was run.",
+    "Line 10 supplies a lexicon entry for ye (eye, two syllables) because the spelling is a homograph of the one-syllable pronoun ye."
+  ],
+  "lines": [
+    {
+      "n": 1,
+      "text": "Whan that Aprille with his shoures soote",
+      "syllables": 11,
+      "kind": "feminine",
+      "final_e": [
+        [
+          "Aprille",
+          "pronounced"
+        ],
+        [
+          "soote",
+          "line_end"
+        ]
+      ]
+    },
+    {
+      "n": 2,
+      "text": "The droghte of March hath perced to the roote",
+      "syllables": 11,
+      "kind": "feminine",
+      "final_e": [
+        [
+          "droghte",
+          "elided_vowel"
+        ],
+        [
+          "roote",
+          "line_end"
+        ]
+      ]
+    },
+    {
+      "n": 3,
+      "text": "And bathed every veyne in swich licour",
+      "syllables": 10,
+      "kind": "masculine",
+      "final_e": [
+        [
+          "veyne",
+          "elided_vowel"
+        ]
+      ]
+    },
+    {
+      "n": 4,
+      "text": "Of which vertu engendred is the flour",
+      "syllables": 10,
+      "kind": "masculine",
+      "final_e": []
+    },
+    {
+      "n": 5,
+      "text": "Whan Zephirus eek with his sweete breeth",
+      "syllables": 10,
+      "kind": "masculine",
+      "final_e": [
+        [
+          "sweete",
+          "pronounced"
+        ]
+      ]
+    },
+    {
+      "n": 6,
+      "text": "Inspired hath in every holt and heeth",
+      "syllables": 10,
+      "kind": "masculine",
+      "final_e": []
+    },
+    {
+      "n": 7,
+      "text": "The tendre croppes, and the yonge sonne",
+      "syllables": 11,
+      "kind": "feminine",
+      "final_e": [
+        [
+          "tendre",
+          "pronounced"
+        ],
+        [
+          "yonge",
+          "pronounced"
+        ],
+        [
+          "sonne",
+          "line_end"
+        ]
+      ]
+    },
+    {
+      "n": 8,
+      "text": "Hath in the Ram his halve cours yronne",
+      "syllables": 11,
+      "kind": "feminine",
+      "final_e": [
+        [
+          "halve",
+          "pronounced"
+        ],
+        [
+          "yronne",
+          "line_end"
+        ]
+      ]
+    },
+    {
+      "n": 9,
+      "text": "And smale foweles maken melodye",
+      "syllables": 11,
+      "kind": "feminine",
+      "final_e": [
+        [
+          "smale",
+          "pronounced"
+        ],
+        [
+          "melodye",
+          "line_end"
+        ]
+      ]
+    },
+    {
+      "n": 10,
+      "text": "That slepen al the nyght with open ye",
+      "syllables": 11,
+      "kind": "feminine",
+      "final_e": [
+        [
+          "ye",
+          "line_end"
+        ]
+      ],
+      "lexicon": {
+        "ye": {
+          "core": 1,
+          "final_e": true,
+          "ipa": "ˈiː.ə"
+        }
+      }
+    },
+    {
+      "n": 11,
+      "text": "So priketh hem nature in hir corages",
+      "syllables": 11,
+      "kind": "feminine",
+      "final_e": [
+        [
+          "nature",
+          "elided_vowel"
+        ]
+      ]
+    }
+  ]
+}
