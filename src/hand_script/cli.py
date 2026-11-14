@@ -39,6 +39,39 @@ def _cmd_scan(args: argparse.Namespace) -> int:
     return status
 
 
+def check_fixture_file(path: Path) -> list[str]:
+    """Run a scansion fixture file; return one failure message per mismatch."""
+    data = json.loads(path.read_text("utf-8"))
+    failures: list[str] = []
+    for case in data["lines"]:
+        lexicon = entries_from_json(case.get("lexicon", {}))
+        scan = scan_line(case["text"], lexicon)
+        result = validate(scan)
+        label = f"line {case['n']}"
+        if scan.syllables != case["syllables"]:
+            failures.append(f"{label}: syllables {scan.syllables} != {case['syllables']}")
+        if result.kind != case["kind"]:
+            failures.append(f"{label}: kind {result.kind!r} != {case['kind']!r}")
+        report = [list(pair) for pair in scan.final_e_report()]
+        if report != case["final_e"]:
+            failures.append(f"{label}: final -e {report} != {case['final_e']}")
+    return failures
+
+
+def _cmd_check_fixtures(args: argparse.Namespace) -> int:
+    status = 0
+    for name in args.paths:
+        failures = check_fixture_file(Path(name))
+        if failures:
+            status = 1
+            print(f"{name}: FAIL")
+            for failure in failures:
+                print(f"  {failure}")
+        else:
+            print(f"{name}: ok")
+    return status
+
+
 def _cmd_manifest(args: argparse.Namespace) -> int:
     try:
         manifest = manifest_mod.load(Path(args.path) if args.path else None)
@@ -65,6 +98,12 @@ def build_parser() -> argparse.ArgumentParser:
     s.add_argument("lines", nargs="+")
     s.add_argument("--lexicon", help="JSON file of extra lexicon entries")
     s.set_defaults(func=_cmd_scan)
+
+    c = sub.add_parser(
+        "check-fixtures", help="verify scansion fixture files (n, text, syllables, kind, final_e)"
+    )
+    c.add_argument("paths", nargs="+")
+    c.set_defaults(func=_cmd_check_fixtures)
 
     m = sub.add_parser("manifest", help="print or validate the source-thread manifest")
     m.add_argument("--path", help="manifest file (default: the packaged manifest)")

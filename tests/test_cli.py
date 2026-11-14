@@ -27,3 +27,33 @@ def test_scan_with_lexicon_file(tmp_path, capsys):
 def test_transcribe_prints_pairs(capsys):
     assert main(["transcribe", "nyght sweete"]) == 0
     assert capsys.readouterr().out.splitlines() == ["nyght\tnɪçt", "sweete\tˈsweː.tə"]
+
+
+def test_check_fixtures_passes_on_the_shipped_fixture(capsys):
+    from pathlib import Path
+
+    fixture = Path(__file__).parent / "fixtures" / "gp_opening.json"
+    assert main(["check-fixtures", str(fixture)]) == 0
+    assert capsys.readouterr().out.strip().endswith(": ok")
+
+
+def test_check_fixtures_reports_each_kind_of_mismatch(tmp_path, capsys):
+    bad = {
+        "lines": [
+            {
+                "n": 1,
+                "text": "Whan that Aprille with his shoures soote",
+                "syllables": 10,
+                "kind": "masculine",
+                "final_e": [["Aprille", "elided_vowel"]],
+            }
+        ]
+    }
+    path = tmp_path / "bad.json"
+    path.write_text(json.dumps(bad))
+    assert main(["check-fixtures", str(path)]) == 1
+    out = capsys.readouterr().out
+    assert "FAIL" in out
+    assert "syllables 11 != 10" in out
+    assert "kind 'feminine' != 'masculine'" in out
+    assert "final -e" in out
