@@ -1,4 +1,4 @@
-"""Command line: transcribe, scan and manifest."""
+"""Command line: transcribe, scan, ingest-corpus and manifest."""
 
 from __future__ import annotations
 
@@ -7,6 +7,7 @@ import json
 import sys
 from pathlib import Path
 
+from . import corpus as corpus_mod
 from . import manifest as manifest_mod
 from .middle_english import entries_from_json, scan_line, transcribe_text, validate
 
@@ -72,6 +73,29 @@ def _cmd_check_fixtures(args: argparse.Namespace) -> int:
     return status
 
 
+def _cmd_ingest_corpus(args: argparse.Namespace) -> int:
+    lexicon = _load_lexicon(args.lexicon)
+    try:
+        report = corpus_mod.ingest_file(Path(args.path), lexicon)
+    except (OSError, corpus_mod.CorpusError) as exc:
+        print(f"ingest-corpus: {exc}", file=sys.stderr)
+        return 2
+    text = corpus_mod.dumps(report)
+    if args.output:
+        Path(args.output).write_text(text, "utf-8")
+    else:
+        sys.stdout.write(text)
+    summary = report["summary"]
+    print(
+        f"{summary['passed']}/{summary['total']} lines pass ({summary['pass_rate']:.2%})",
+        file=sys.stderr,
+    )
+    if args.min_pass_rate is not None and summary["pass_rate"] < args.min_pass_rate:
+        print(f"pass rate below --min-pass-rate {args.min_pass_rate}", file=sys.stderr)
+        return 1
+    return 0
+
+
 def _cmd_manifest(args: argparse.Namespace) -> int:
     try:
         manifest = manifest_mod.load(Path(args.path) if args.path else None)
@@ -104,6 +128,20 @@ def build_parser() -> argparse.ArgumentParser:
     )
     c.add_argument("paths", nargs="+")
     c.set_defaults(func=_cmd_check_fixtures)
+
+    i = sub.add_parser(
+        "ingest-corpus",
+        help="validate a file of verse lines (ref<TAB>text) and write a JSON report",
+    )
+    i.add_argument("path")
+    i.add_argument("--output", "-o", help="write the report here instead of stdout")
+    i.add_argument("--lexicon", help="JSON file of extra lexicon entries")
+    i.add_argument(
+        "--min-pass-rate",
+        type=float,
+        help="exit 1 if the pass rate (0-1) is lower; otherwise failures leave the exit code 0",
+    )
+    i.set_defaults(func=_cmd_ingest_corpus)
 
     m = sub.add_parser("manifest", help="print or validate the source-thread manifest")
     m.add_argument("--path", help="manifest file (default: the packaged manifest)")

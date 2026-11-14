@@ -12,6 +12,7 @@ from typing import Any
 
 SCHEMA = "hand-script.manifest/1"
 LINEAGE_ID = re.compile(r"^perplexity-[0-9a-f]{8}$")
+CORPUS_KEYS = ("id", "file", "work", "edition", "rights", "url", "retrieved")
 STATUSES = frozenset({"implemented", "not started"})
 
 
@@ -80,6 +81,10 @@ def validate(data: dict[str, Any]) -> Manifest:
     for n, item in enumerate(data["lineage"]):
         if not LINEAGE_ID.match(str(item.get("id"))):
             raise ManifestError(f"lineage[{n}].id {item.get('id')!r} is not perplexity-<8 hex>")
+    for n, corpus in enumerate(data.get("corpora", [])):
+        missing = [k for k in CORPUS_KEYS if not isinstance(corpus, dict) or not corpus.get(k)]
+        if missing:
+            raise ManifestError(f"corpora[{n}] missing {missing}")
     manifest = Manifest(data)
     ids = manifest.all_source_ids
     dupes = sorted({i for i in ids if ids.count(i) > 1})
