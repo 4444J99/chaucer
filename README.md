@@ -45,6 +45,7 @@ uv venv && uv pip install -e ".[dev]"
 hand-script scan "Whan that Aprille with his shoures soote"
 hand-script transcribe "nyght sweete"
 hand-script manifest --check
+hand-script check-fixtures tests/fixtures/gp_opening.json   # add lines, get pass/fail
 pytest && ruff check . && ruff format --check .
 ```
 
