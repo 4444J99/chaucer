@@ -67,6 +67,13 @@ def _data():
         (lambda d: d["components"][0].update(status="done"), "status"),
         (lambda d: d["components"][0].update(module=None), "module"),
         (lambda d: d.pop("threads"), "missing key"),
+        (lambda d: d.update(threads={}), "threads must be an array"),
+        (lambda d: d.update(threads=None), "threads must be an array"),
+        (lambda d: d.update(threads=["0a7dad6d-8f2f-4c64-8b80-6279521a4194"]), "must be an object"),
+        (lambda d: d.update(space="053d129c"), "space must be an object"),
+        (lambda d: d.update(project=3), "project must be a string"),
+        (lambda d: d.update(components={}), "components must be an array"),
+        (lambda d: d.update(lineage=[None]), "lineage\\[0\\] must be an object"),
     ],
 )
 def test_invalid_manifests_are_rejected(mutate, message):
@@ -91,3 +98,17 @@ def test_cli_manifest_rejects_bad_file(tmp_path, capsys):
 def test_manifest_file_is_the_packaged_one():
     path = Path(manifest.__file__).parent / "data" / "project_manifest.json"
     assert json.loads(path.read_text("utf-8"))["project"] == "hand-script"
+
+
+def test_validate_rejects_non_object_top_level():
+    with pytest.raises(manifest.ManifestError, match="JSON object"):
+        manifest.validate([])  # type: ignore[arg-type]
+
+
+def test_cli_manifest_check_rejects_wrong_container_types(tmp_path, capsys):
+    bad = tmp_path / "m.json"
+    data = _data()
+    data["threads"] = None
+    bad.write_text(json.dumps(data))
+    assert main(["manifest", "--check", "--path", str(bad)]) == 1
+    assert "threads must be an array" in capsys.readouterr().err

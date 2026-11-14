@@ -367,7 +367,11 @@ def analyze(word: str, lexicon: Lexicon | None = None) -> WordPhonology:
     core = entry.core if entry.core is not None else rule_core
     final_e = entry.final_e if entry.final_e is not None else rule_final_e
     ipa = entry.ipa if entry.ipa is not None else rule_ipa
-    ends_schwa = final_e or last_schwa
+    if entry.ipa is not None:
+        # A lexicon pronunciation is authoritative about how the word ends.
+        ends_schwa = "ə" in entry.ipa.rsplit(".", 1)[-1]
+    else:
+        ends_schwa = final_e or (last_schwa and not rule_final_e)
     return WordPhonology(norm, ipa, core, final_e, ends_schwa, from_lexicon=True)
 
 

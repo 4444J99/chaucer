@@ -55,11 +55,24 @@ def _check_uuid(value: object, where: str) -> None:
 
 def validate(data: dict[str, Any]) -> Manifest:
     """Validate a manifest mapping and return it wrapped; raise :class:`ManifestError`."""
+    if not isinstance(data, dict):
+        raise ManifestError("manifest must be a JSON object")
     if data.get("schema") != SCHEMA:
         raise ManifestError(f"schema must be {SCHEMA!r}, got {data.get('schema')!r}")
     for key in ("project", "space", "threads", "computer_followups", "lineage", "components"):
         if key not in data:
             raise ManifestError(f"missing key {key!r}")
+    if not isinstance(data["project"], str):
+        raise ManifestError("project must be a string")
+    if not isinstance(data["space"], dict):
+        raise ManifestError("space must be an object")
+    for section in ("threads", "computer_followups", "lineage", "components"):
+        items = data[section]
+        if not isinstance(items, list):
+            raise ManifestError(f"{section} must be an array")
+        for n, item in enumerate(items):
+            if not isinstance(item, dict):
+                raise ManifestError(f"{section}[{n}] must be an object")
     _check_uuid(data["space"].get("id"), "space.id")
     for section in ("threads", "computer_followups"):
         for n, item in enumerate(data[section]):

@@ -46,16 +46,32 @@ LINE_END = "line_end"
 ABSENT = "absent"
 
 
-def begins_with_elidable(word: str) -> str | None:
-    """Return ``"vowel"`` or ``"h"`` if a preceding final -e would elide, else ``None``."""
+IPA_VOWELS = frozenset("aeiouyɛɔɪʊəæ")
+
+
+def begins_with_elidable(word: str, lexicon: Lexicon | None = None) -> str | None:
+    """Return ``"vowel"`` or ``"h"`` if a preceding final -e would elide, else ``None``.
+
+    The initial sound comes from the lexicon pronunciation when the word has an
+    entry (so a homograph override such as ``ye`` "eye" elides a preceding -e),
+    and from the spelling otherwise.
+    """
     norm = normalize(word)
     if not norm:
         return None
-    units = tokenize(norm)
+    entry = merge(lexicon).get(norm)
+    if entry is not None and entry.ipa:
+        first = entry.ipa.lstrip("ˈˌ")[:1]
+        if first in IPA_VOWELS:
+            return "vowel"
+        if first == "h" and (norm in WEAK_H_WORDS or norm in SILENT_H_WORDS):
+            return "h"
+        return None
     if norm[0] == "h":
         if norm in WEAK_H_WORDS or norm in SILENT_H_WORDS:
             return "h"
         return None
+    units = tokenize(norm)
     if units and units[0].kind == "V":
         return "vowel"
     return None
@@ -103,7 +119,7 @@ def scan_line(line: str, lexicon: Lexicon | None = None) -> Scansion:
         if i == last:
             scanned.append(WordScan(raw, a.ipa, LINE_END, a.syllables))
             continue
-        trigger = begins_with_elidable(raw_words[i + 1])
+        trigger = begins_with_elidable(raw_words[i + 1], lex)
         if trigger == "vowel":
             scanned.append(WordScan(raw, a.ipa, ELIDED_VOWEL, a.core))
         elif trigger == "h":
