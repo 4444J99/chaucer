@@ -1,7 +1,7 @@
 {
   "schema": "chaucer.manifest/1",
   "project": "chaucer",
-  "description": "Source threads for the chaucer project: a handwriting-practice and linguistics curriculum Space (writing systems, etymological roots, 18 languages in nine families) that moved on 2026-11-10 toward a Middle English corpus and generation pipeline.",
+  "description": "Source threads for the chaucer project: the Perplexity Space that began as a handwriting-practice and linguistics curriculum (writing systems, etymological roots, 18 languages in nine families; that half is now the separate hand-script project) and moved on 2026-11-10 toward a Middle English corpus and generation pipeline.",
   "provenance": {
     "repo": "4444J99/titan",
     "path": ".claude/plans/2026-11-14-owner-goals-r6.md",
