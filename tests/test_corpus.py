@@ -265,3 +265,14 @@ def test_manifest_accepts_a_real_corpus_attribution():
         "pass_rate": 0.7,
     }
     manifest.validate(data)
+
+
+def test_manifest_rejects_duplicate_and_non_string_corpus_ids():
+    data = _fresh()
+    data["corpora"].append(json.loads(json.dumps(data["corpora"][0])))
+    with pytest.raises(manifest.ManifestError, match="duplicate corpus ids"):
+        manifest.validate(data)
+    data = _fresh()
+    data["corpora"][0]["id"] = 5
+    with pytest.raises(manifest.ManifestError, match="id must be a string"):
+        manifest.validate(data)

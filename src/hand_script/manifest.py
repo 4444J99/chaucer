@@ -134,8 +134,13 @@ def validate(data: dict[str, Any]) -> Manifest:
         missing = [k for k in CORPUS_KEYS if not corpus.get(k)]
         if missing:
             raise ManifestError(f"corpora[{n}] missing {missing}")
+        if not isinstance(corpus["id"], str):
+            raise ManifestError(f"corpora[{n}].id must be a string")
         _check_result(corpus.get("result"), f"corpora[{n}].result")
-    corpus_ids = {c["id"] for c in data.get("corpora", []) if isinstance(c.get("id"), str)}
+    corpus_ids = [c["id"] for c in data.get("corpora", [])]
+    dup_corpora = sorted({i for i in corpus_ids if corpus_ids.count(i) > 1})
+    if dup_corpora:
+        raise ManifestError(f"duplicate corpus ids: {dup_corpora}")
     for n, thread in enumerate(data["threads"]):
         _check_ingest(thread.get("ingest"), f"threads[{n}].ingest", corpus_ids, data)
     manifest = Manifest(data)
