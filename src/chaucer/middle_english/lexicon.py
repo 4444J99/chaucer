@@ -1,6 +1,6 @@
 """Exceptions lexicon for the rule-based Middle English engine.
 
-The orthography-driven rules in :mod:`hand_script.middle_english.phonology`
+The orthography-driven rules in :mod:`chaucer.middle_english.phonology`
 cover the regular cases. Anything the spelling cannot determine (syncope,
 French stress, borrowed consonant clusters, homographs) is recorded here as an
 explicit, inspectable entry rather than hidden in the rules.

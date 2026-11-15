@@ -7,7 +7,7 @@ syllabified IPA string. It is deliberately explicit about what it models:
 * syllabification by a maximal-onset rule with geminates split across the break;
 * vowel quantity from syllable shape (open stressed syllables lengthen);
 * stress by lexicon, then by prefix and Romance-ending heuristics, else initial;
-* the final -e syllable, which :mod:`hand_script.middle_english.scansion` elides.
+* the final -e syllable, which :mod:`chaucer.middle_english.scansion` elides.
 
 Anything the spelling cannot decide lives in :mod:`.lexicon`. This is a
 reconstruction aid, not a claim about any single manuscript.

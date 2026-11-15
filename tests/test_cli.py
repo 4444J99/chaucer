@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import json
 
-from hand_script.cli import main
+from chaucer.cli import main
 
 
 def test_scan_ok_line(capsys):

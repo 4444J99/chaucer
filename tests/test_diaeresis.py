@@ -2,8 +2,8 @@
 
 from __future__ import annotations
 
-from hand_script.middle_english import scan_line
-from hand_script.middle_english.phonology import normalize
+from chaucer.middle_english import scan_line
+from chaucer.middle_english.phonology import normalize
 
 
 def test_normalize_folds_diaeresis_to_base_letter():
@@ -34,7 +34,7 @@ def test_diaeresis_word_uses_its_lexicon_entry():
 
 
 def test_transcribe_text_keeps_diaeresis_words_whole():
-    from hand_script.middle_english.phonology import transcribe_text
+    from chaucer.middle_english.phonology import transcribe_text
 
     pairs = transcribe_text("yë sëynt treës")
     assert [spelling for spelling, _ in pairs] == ["yë", "sëynt", "treës"]

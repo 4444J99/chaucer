@@ -1,20 +1,25 @@
-# hand-script
+# chaucer
 
-Handwriting practice, etymology and Middle English tooling. The source is a Perplexity
-Space (`053d129c-8941-4aa7-8dde-61aede81813d`) that began as a handwriting-practice and
-linguistics curriculum (writing systems, etymological roots, 18 languages in nine
-families) and on 2026-11-10 moved toward a Middle English corpus and generation pipeline.
-This repository holds the tested code for that pipeline. Private.
+**Scope.** Middle English scansion, transcription and reading of Chaucer's Canterbury Tales: a
+phonological transcriber, a final -e scansion validator, corpus ingestion of Skeat's General
+Prologue, and HTML report and practice-sheet renderers. It is not the owner's handwriting and
+script-learning project (that is `4444J99/hand-script`) and not vers.forms, the owner's poetry
+studio (`4444J99/journal-handwritten-web`, `4444J99/versforms`). Private.
+
+History: this repository was `hand-script` until 2026-11-15, when the Chaucer work and the
+handwriting project were separated; its commits and PRs 1-8 are the Chaucer work and keep their
+history here. The Perplexity Space named in the manifest began as a handwriting and linguistics
+curriculum and moved to Middle English on 2026-11-10; only the Middle English half lives here.
 
 ## What is here
 
 | Component | Module | Status |
 |-----------|--------|--------|
-| Phonological transcriber (Chaucerian ME to syllabified IPA) | `hand_script.middle_english.phonology` | implemented |
-| Final -e scansion validator | `hand_script.middle_english.scansion` | implemented |
-| Source-thread manifest | `hand_script.manifest`, `src/hand_script/data/project_manifest.json` | implemented |
-| Corpus ingestion (validator over a verse file, JSON report) | `hand_script.corpus` | implemented |
-| Corpus report as HTML (verdicts and final -e marked per word) | `hand_script.render` | implemented |
+| Phonological transcriber (Chaucerian ME to syllabified IPA) | `chaucer.middle_english.phonology` | implemented |
+| Final -e scansion validator | `chaucer.middle_english.scansion` | implemented |
+| Source-thread manifest | `chaucer.manifest`, `src/chaucer/data/project_manifest.json` | implemented |
+| Corpus ingestion (validator over a verse file, JSON report) | `chaucer.corpus` | implemented |
+| Corpus report as HTML (verdicts and final -e marked per word) | `chaucer.render` | implemented |
 | Generation pipeline | | not started |
 
 ### Transcriber
@@ -44,13 +49,13 @@ choice take a lexicon entry (the General Prologue fixture does this for `ye`, "e
 
 ```sh
 uv venv && uv pip install -e ".[dev]"
-hand-script scan "Whan that Aprille with his shoures soote"
-hand-script transcribe "nyght sweete"
-hand-script manifest --check
-hand-script ingest-corpus corpus/chaucer_gp_skeat.txt -o corpus/chaucer_gp_skeat.report.json
-hand-script triage-corpus corpus/chaucer_gp_skeat.txt -o corpus/chaucer_gp_skeat.triage.json
-hand-script render-report corpus/chaucer_gp_skeat.report.json -o corpus/chaucer_gp_skeat.report.html
-hand-script check-fixtures tests/fixtures/gp_opening.json   # add lines, get pass/fail
+chaucer scan "Whan that Aprille with his shoures soote"
+chaucer transcribe "nyght sweete"
+chaucer manifest --check
+chaucer ingest-corpus corpus/chaucer_gp_skeat.txt -o corpus/chaucer_gp_skeat.report.json
+chaucer triage-corpus corpus/chaucer_gp_skeat.txt -o corpus/chaucer_gp_skeat.triage.json
+chaucer render-report corpus/chaucer_gp_skeat.report.json -o corpus/chaucer_gp_skeat.report.html
+chaucer check-fixtures tests/fixtures/gp_opening.json   # add lines, get pass/fail
 pytest && ruff check . && ruff format --check .
 ```
 

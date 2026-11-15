@@ -5,8 +5,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from hand_script import corpus, triage
-from hand_script.cli import main
+from chaucer import corpus, triage
+from chaucer.cli import main
 
 ROOT = Path(__file__).parent.parent
 CORPUS = ROOT / "corpus" / "chaucer_gp_skeat.txt"
@@ -84,7 +84,7 @@ def test_cli_reports_unreadable_and_empty_input(tmp_path, capsys):
 
 
 def test_variant_keeps_the_existing_entry_ipa():
-    from hand_script.middle_english.lexicon import DEFAULT_LEXICON
+    from chaucer.middle_english.lexicon import DEFAULT_LEXICON
 
     entry = triage._variant_entry("every", DEFAULT_LEXICON, "syncope")
     assert entry is not None and entry.ipa == DEFAULT_LEXICON["every"].ipa

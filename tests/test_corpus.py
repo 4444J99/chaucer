@@ -8,8 +8,8 @@ from pathlib import Path
 
 import pytest
 
-from hand_script import corpus, manifest
-from hand_script.cli import main
+from chaucer import corpus, manifest
+from chaucer.cli import main
 
 ROOT = Path(__file__).parent.parent
 FIXTURE = Path(__file__).parent / "fixtures" / "gp_opening.json"
@@ -76,7 +76,7 @@ def test_lexicon_changes_the_result():
     data = b"G.10\tThat slepen al the nyght with open ye\n"
     plain = corpus.ingest(data, "x.txt", "x")
     assert plain["lines"][0]["syllables"] == 10
-    from hand_script.middle_english import entries_from_json
+    from chaucer.middle_english import entries_from_json
 
     lex = entries_from_json({"ye": {"core": 1, "final_e": True, "ipa": "ˈiː.ə"}})
     with_lex = corpus.ingest(data, "x.txt", "x", lex)

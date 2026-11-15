@@ -8,9 +8,9 @@ from pathlib import Path
 
 import pytest
 
-from hand_script import corpus, render
-from hand_script.cli import main
-from hand_script.middle_english import entries_from_json, scan_line
+from chaucer import corpus, render
+from chaucer.cli import main
+from chaucer.middle_english import entries_from_json, scan_line
 
 ROOT = Path(__file__).parent.parent
 CORPUS = ROOT / "corpus" / "chaucer_gp_skeat.txt"
@@ -189,7 +189,7 @@ def test_cli_reports_an_unwritable_output_and_odd_reports(tmp_path, capsys):
     assert main(["render-report", str(REPORT), "-o", str(tmp_path / "no" / "x.html")]) == 2
     odd = tmp_path / "odd.json"
     empty = {
-        "schema": "hand-script.corpus-report/1",
+        "schema": "chaucer.corpus-report/1",
         "source": {"file": "x", "sha256": "0"},
         "summary": {"total": 0, "passed": 0, "failed": 0, "pass_rate": 0.0},
         "lines": [],

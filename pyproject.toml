@@ -3,7 +3,7 @@ requires = ["hatchling>=1.24"]
 build-backend = "hatchling.build"
 
 [project]
-name = "hand-script"
+name = "chaucer"
 version = "0.1.0"
 description = "Handwriting practice, etymology and Middle English tooling: phonological transcriber, final -e scansion validator and source-thread manifest."
 readme = "README.md"
@@ -17,10 +17,10 @@ dependencies = []
 dev = ["pytest>=8", "ruff>=0.6"]
 
 [project.scripts]
-hand-script = "hand_script.cli:main"
+chaucer = "chaucer.cli:main"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/hand_script"]
+packages = ["src/chaucer"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

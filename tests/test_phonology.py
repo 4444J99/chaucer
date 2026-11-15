@@ -4,8 +4,8 @@ from __future__ import annotations
 
 import pytest
 
-from hand_script.middle_english import analyze, transcribe, transcribe_text
-from hand_script.middle_english.phonology import normalize, syllabify, tokenize
+from chaucer.middle_english import analyze, transcribe, transcribe_text
+from chaucer.middle_english.phonology import normalize, syllabify, tokenize
 
 
 @pytest.mark.parametrize(
@@ -41,7 +41,7 @@ def test_lexicon_overrides_rules_and_is_flagged():
 
 
 def test_caller_lexicon_wins():
-    from hand_script.middle_english import LexEntry
+    from chaucer.middle_english import LexEntry
 
     custom = {"holt": LexEntry(ipa="ˈhɔlt.ə", core=1, final_e=True)}
     assert transcribe("holt", custom) == "ˈhɔlt.ə"

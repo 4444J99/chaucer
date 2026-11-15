@@ -511,7 +511,7 @@
     }
   ],
   "candidates_considered": 586,
-  "schema": "hand-script.triage/1",
+  "schema": "chaucer.triage/1",
   "source": {
     "file": "chaucer_gp_skeat.txt"
   }
