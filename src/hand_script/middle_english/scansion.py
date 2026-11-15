@@ -37,7 +37,7 @@ SILENT_H_WORDS = frozenset(
     {"honour", "honur", "honest", "honeste", "hostiler", "hostelrye", "hour", "houre", "heir"}
 )
 
-_WORD = re.compile(r"[A-Za-zþðȝæÞÐȜÆ]+")
+_WORD = re.compile(r"[A-Za-zþðȝæÞÐȜÆëïöüäÿËÏÖÜÄŸ]+")
 
 PRONOUNCED = "pronounced"
 ELIDED_VOWEL = "elided_vowel"
