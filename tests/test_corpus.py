@@ -182,3 +182,27 @@ def test_min_pass_rate_compares_unrounded_rate(tmp_path, capsys):
     assert main(["ingest-corpus", str(CORPUS), "-o", str(tmp_path / "r.json"),
                  "--min-pass-rate", "0.73373"]) == 1  # fmt: skip
     capsys.readouterr()
+
+
+def test_manifest_corpus_result_equals_the_committed_report():
+    summary = json.loads(REPORT.read_text("utf-8"))["summary"]
+    result = manifest.load().data["corpora"][0]["result"]
+    for key in ("total", "passed", "failed", "pass_rate"):
+        assert result[key] == summary[key]
+
+
+def test_every_source_thread_has_an_ingest_record():
+    loaded = manifest.load()
+    threads = loaded.data["threads"]
+    assert len(threads) == 7
+    for thread in threads:
+        assert thread["ingest"]["lines"] == 0
+        assert thread["ingest"]["pass_rate"] is None
+        assert thread["ingest"]["reason"]
+
+
+def test_thread_without_ingest_record_is_rejected():
+    data = json.loads(json.dumps(manifest.load().data))
+    del data["threads"][0]["ingest"]
+    with pytest.raises(manifest.ManifestError, match="ingest"):
+        manifest.validate(data)

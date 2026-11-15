@@ -88,6 +88,17 @@ def validate(data: dict[str, Any]) -> Manifest:
         missing = [k for k in CORPUS_KEYS if not corpus.get(k)]
         if missing:
             raise ManifestError(f"corpora[{n}] missing {missing}")
+    for n, thread in enumerate(data["threads"]):
+        ingest = thread.get("ingest")
+        if not isinstance(ingest, dict):
+            raise ManifestError(f"threads[{n}] needs an ingest record")
+        if ingest.get("lines") == 0:
+            if ingest.get("pass_rate") is not None or not ingest.get("reason"):
+                raise ManifestError(
+                    f"threads[{n}].ingest: zero lines need pass_rate null and a reason"
+                )
+        elif ingest.get("corpus_id") not in {c["id"] for c in data.get("corpora", [])}:
+            raise ManifestError(f"threads[{n}].ingest.corpus_id names no corpus")
     manifest = Manifest(data)
     ids = manifest.all_source_ids
     dupes = sorted({i for i in ids if ids.count(i) > 1})
