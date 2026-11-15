@@ -14,6 +14,7 @@ This repository holds the tested code for that pipeline. Private.
 | Final -e scansion validator | `hand_script.middle_english.scansion` | implemented |
 | Source-thread manifest | `hand_script.manifest`, `src/hand_script/data/project_manifest.json` | implemented |
 | Corpus ingestion (validator over a verse file, JSON report) | `hand_script.corpus` | implemented |
+| Corpus report as HTML (verdicts and final -e marked per word) | `hand_script.render` | implemented |
 | Generation pipeline | | not started |
 
 ### Transcriber
@@ -48,6 +49,7 @@ hand-script transcribe "nyght sweete"
 hand-script manifest --check
 hand-script ingest-corpus corpus/chaucer_gp_skeat.txt -o corpus/chaucer_gp_skeat.report.json
 hand-script triage-corpus corpus/chaucer_gp_skeat.txt -o corpus/chaucer_gp_skeat.triage.json
+hand-script render-report corpus/chaucer_gp_skeat.report.json -o corpus/chaucer_gp_skeat.report.html
 hand-script check-fixtures tests/fixtures/gp_opening.json   # add lines, get pass/fail
 pytest && ruff check . && ruff format --check .
 ```
@@ -80,6 +82,17 @@ The `.github/workflows/ci.yml` commands are run locally from a fresh clone. Loca
 
 - Python 3.11 and 3.13: `ruff check .` pass; `ruff format --check .` pass (14 files); `pytest` pass, 111 tests each
 - Python 3.12, the third matrix entry, is not installed on this machine and was not run
+
+### Report page
+
+`render-report REPORT.json` writes one self-contained HTML page (no scripts, no network, no
+timestamps): the pass rate, a syllables-per-line histogram, and every verse line with its
+verdict. In each line a final -e is marked by what the validator did with it: counted, elided
+before a vowel or weak h (struck through), or kept at the line end. The report supplies the
+verdicts; each line is re-scanned only for the per-word -e behaviour and must reproduce the
+report's syllable count, so a report made with `--lexicon` needs the same `--lexicon` here.
+`corpus/chaucer_gp_skeat.report.html` is the page for the committed report (open it in a browser;
+the pass/fail filter is CSS only); a test checks it equals a fresh render.
 
 ### Corpus pass rate and triage
 

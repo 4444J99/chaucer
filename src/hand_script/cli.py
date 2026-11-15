@@ -1,4 +1,4 @@
-"""Command line: transcribe, scan, ingest-corpus, triage-corpus and manifest."""
+"""Command line: transcribe, scan, ingest-corpus, triage-corpus, render-report and manifest."""
 
 from __future__ import annotations
 
@@ -9,6 +9,7 @@ from pathlib import Path
 
 from . import corpus as corpus_mod
 from . import manifest as manifest_mod
+from . import render as render_mod
 from . import triage as triage_mod
 from .middle_english import entries_from_json, scan_line, transcribe_text, validate
 
@@ -123,6 +124,20 @@ def _cmd_triage_corpus(args: argparse.Namespace) -> int:
     return 0
 
 
+def _cmd_render_report(args: argparse.Namespace) -> int:
+    try:
+        report = json.loads(Path(args.path).read_text("utf-8"))
+        page = render_mod.render_report(report, _load_lexicon(args.lexicon))
+        if args.output:
+            Path(args.output).write_text(page, "utf-8")
+    except (OSError, ValueError, KeyError, TypeError, AttributeError) as exc:
+        print(f"render-report: {type(exc).__name__}: {exc}", file=sys.stderr)
+        return 2
+    if not args.output:
+        sys.stdout.write(page)
+    return 0
+
+
 def _cmd_manifest(args: argparse.Namespace) -> int:
     try:
         manifest = manifest_mod.load(Path(args.path) if args.path else None)
@@ -179,6 +194,14 @@ def build_parser() -> argparse.ArgumentParser:
     tr.add_argument("--lexicon", help="JSON file of extra lexicon entries")
     tr.add_argument("--top", type=int, default=40, help="candidates to keep (default 40)")
     tr.set_defaults(func=_cmd_triage_corpus)
+
+    r = sub.add_parser(
+        "render-report", help="render an ingest-corpus report as a self-contained HTML page"
+    )
+    r.add_argument("path", help="report JSON written by ingest-corpus")
+    r.add_argument("--output", "-o", help="write the page here instead of stdout")
+    r.add_argument("--lexicon", help="the lexicon the report was made with, if any")
+    r.set_defaults(func=_cmd_render_report)
 
     m = sub.add_parser("manifest", help="print or validate the source-thread manifest")
     m.add_argument("--path", help="manifest file (default: the packaged manifest)")
