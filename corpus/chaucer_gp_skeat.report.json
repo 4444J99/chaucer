@@ -1,0 +1,7353 @@
+{
+  "lines": [
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.1",
+      "syllables": 11,
+      "text": "Whan that Aprille with his shoures sote"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.2",
+      "syllables": 11,
+      "text": "The droghte of Marche hath perced to the rote,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.3",
+      "syllables": 10,
+      "text": "And bathed every veyne in swich licour,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.4",
+      "syllables": 10,
+      "text": "Of which vertu engendred is the flour;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.5",
+      "syllables": 10,
+      "text": "Whan Zephirus eek with his swete breeth"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.6",
+      "syllables": 10,
+      "text": "Inspired hath in every holt and heeth"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.7",
+      "syllables": 11,
+      "text": "The tendre croppes, and the yonge sonne"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.8",
+      "syllables": 11,
+      "text": "Hath in the Ram his halfe cours y-ronne,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.9",
+      "syllables": 11,
+      "text": "And smale fowles maken melodye,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.10",
+      "syllables": 10,
+      "text": "That slepen al the night with open yë,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.11",
+      "syllables": 11,
+      "text": "(So priketh hem nature in hir corages):"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.12",
+      "syllables": 11,
+      "text": "Than longen folk to goon on pilgrimages"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.13",
+      "syllables": 11,
+      "text": "(And palmers for to seken straunge strondes)"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.14",
+      "syllables": 11,
+      "text": "To ferne halwes, couthe in sondry londes;"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.15",
+      "syllables": 12,
+      "text": "And specially, from every shires ende"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.16",
+      "syllables": 12,
+      "text": "Of Engelond, to Caunterbury they wende,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.17",
+      "syllables": 11,
+      "text": "The holy blisful martir for to seke,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.18",
+      "syllables": 12,
+      "text": "That hem hath holpen, whan that they were seke."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.19",
+      "syllables": 10,
+      "text": "Bifel that, in that seson on a day,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.20",
+      "syllables": 10,
+      "text": "In Southwerk at the Tabard as I lay"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.21",
+      "syllables": 11,
+      "text": "Redy to wenden on my pilgrimage"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.22",
+      "syllables": 12,
+      "text": "To Caunterbury with ful devout corage,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.23",
+      "syllables": 11,
+      "text": "At night was come in-to that hostelrye"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.24",
+      "syllables": 11,
+      "text": "Wel nyne and twenty in a companye,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.25",
+      "syllables": 11,
+      "text": "Of sondry folk, by aventure y-falle"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.26",
+      "syllables": 12,
+      "text": "In felawshipe, and pilgrims were they alle,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.27",
+      "syllables": 11,
+      "text": "That toward Caunterbury wolden ryde;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.28",
+      "syllables": 11,
+      "text": "The chambres and the stables weren wyde,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.29",
+      "syllables": 11,
+      "text": "And wel we weren esed atte beste."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.30",
+      "syllables": 11,
+      "text": "And shortly, whan the sonne was to reste,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.31",
+      "syllables": 11,
+      "text": "So hadde I spoken with hem everichon,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.32",
+      "syllables": 10,
+      "text": "That I was of hir felawshipe anon,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.33",
+      "syllables": 11,
+      "text": "And made forward erly for to ryse,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.34",
+      "syllables": 11,
+      "text": "To take our wey, ther as I yow devyse."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.35",
+      "syllables": 12,
+      "text": "But natheles, whyl I have tyme and space,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.36",
+      "syllables": 11,
+      "text": "Er that I ferther in this tale pace,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.37",
+      "syllables": 10,
+      "text": "Me thinketh it acordaunt to resoun,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.38",
+      "syllables": 10,
+      "text": "To telle yow al the condicioun"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.39",
+      "syllables": 10,
+      "text": "Of ech of hem, so as it semed me,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.40",
+      "syllables": 11,
+      "text": "And whiche they weren, and of what degree;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.41",
+      "syllables": 11,
+      "text": "And eek in what array that they were inne:"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.42",
+      "syllables": 11,
+      "text": "And at a knight than wol I first biginne."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.43",
+      "syllables": 10,
+      "text": "A KNIGHT ther was, and that a worthy man,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.44",
+      "syllables": 10,
+      "text": "That fro the tyme that he first bigan"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.45",
+      "syllables": 11,
+      "text": "To ryden out, he loved chivalrye,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.46",
+      "syllables": 11,
+      "text": "Trouthe and honour, fredom and curteisye."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.47",
+      "syllables": 11,
+      "text": "Ful worthy was he in his lordes werre,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.48",
+      "syllables": 11,
+      "text": "And therto hadde he riden (no man ferre)"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.49",
+      "syllables": 11,
+      "text": "As wel in Cristendom as hethenesse,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.50",
+      "syllables": 12,
+      "text": "And ever honoured for his worthinesse."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.51",
+      "syllables": 11,
+      "text": "At Alisaundre he was, whan it was wonne;"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.52",
+      "syllables": 12,
+      "text": "Ful ofte tyme he hadde the bord bigonne"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.53",
+      "syllables": 11,
+      "text": "Aboven alle naciouns in Pruce."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.54",
+      "syllables": 11,
+      "text": "In Lettow hadde he reysed and in Ruce,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.55",
+      "syllables": 10,
+      "text": "No Cristen man so ofte of his degree."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.56",
+      "syllables": 10,
+      "text": "In Gernade at the sege eek hadde he be"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.57",
+      "syllables": 12,
+      "text": "Of Algezir, and riden in Belmarye."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.58",
+      "syllables": 11,
+      "text": "At Lyeys was he, and at Satalye,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.59",
+      "syllables": 11,
+      "text": "Whan they were wonne; and in the Grete See"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.60",
+      "syllables": 10,
+      "text": "At many a noble aryve hadde he be."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.61",
+      "syllables": 12,
+      "text": "At mortal batailles hadde he been fiftene,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.62",
+      "syllables": 11,
+      "text": "And foughten for our feith at Tramissene"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.63",
+      "syllables": 10,
+      "text": "In listes thryes, and ay slayn his foo."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.64",
+      "syllables": 10,
+      "text": "This ilke worthy knight had been also"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.65",
+      "syllables": 11,
+      "text": "Somtyme with the lord of Palatye,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.66",
+      "syllables": 11,
+      "text": "Ageyn another hethen in Turkye:"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.67",
+      "syllables": 11,
+      "text": "And evermore he hadde a sovereyn prys."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.68",
+      "syllables": 11,
+      "text": "And though that he were worthy, he was wys,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.69",
+      "syllables": 11,
+      "text": "And of his port as meke as is a mayde."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.70",
+      "syllables": 12,
+      "text": "He never yet no vileinye ne sayde"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.71",
+      "syllables": 10,
+      "text": "In al his lyf, un-to no maner wight."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.72",
+      "syllables": 10,
+      "text": "He was a verray parfit gentil knight."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.73",
+      "syllables": 10,
+      "text": "But for to tellen yow of his array,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.74",
+      "syllables": 11,
+      "text": "His hors were gode, but he was nat gay."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.75",
+      "syllables": 10,
+      "text": "Of fustian he wered a gipoun"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.76",
+      "syllables": 11,
+      "text": "Al bismotered with his habergeoun;"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.77",
+      "syllables": 12,
+      "text": "For he was late y-come from his viage,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.78",
+      "syllables": 11,
+      "text": "And wente for to doon his pilgrimage."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.79",
+      "syllables": 10,
+      "text": "With him ther was his sone, a yong SQUYER,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.80",
+      "syllables": 11,
+      "text": "A lovyere, and a lusty bacheler,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.81",
+      "syllables": 12,
+      "text": "With lokkes crulle, as they were leyd in presse."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.82",
+      "syllables": 11,
+      "text": "Of twenty yeer of age he was, I gesse."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.83",
+      "syllables": 12,
+      "text": "Of his stature he was of evene lengthe,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.84",
+      "syllables": 12,
+      "text": "And wonderly deliver, and greet of strengthe."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.85",
+      "syllables": 11,
+      "text": "And he had been somtyme in chivachye,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.86",
+      "syllables": 11,
+      "text": "In Flaundres, in Artoys, and Picardye,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.87",
+      "syllables": 11,
+      "text": "And born him wel, as of so litel space,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.88",
+      "syllables": 12,
+      "text": "In hope to stonden in his lady grace."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.89",
+      "syllables": 11,
+      "text": "Embrouded was he, as it were a mede"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.90",
+      "syllables": 11,
+      "text": "Al ful of fresshe floures, whyte and rede."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.91",
+      "syllables": 10,
+      "text": "Singinge he was, or floytinge, al the day;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.92",
+      "syllables": 10,
+      "text": "He was as fresh as is the month of May."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.93",
+      "syllables": 12,
+      "text": "Short was his goune, with sleves longe and wyde."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.94",
+      "syllables": 11,
+      "text": "Wel coude he sitte on hors, and faire ryde."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.95",
+      "syllables": 11,
+      "text": "He coude songes make and wel endyte,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.96",
+      "syllables": 12,
+      "text": "Iuste and eek daunce, and wel purtreye and wryte,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.97",
+      "syllables": 12,
+      "text": "So hote he lovede, that by nightertale"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.98",
+      "syllables": 12,
+      "text": "He sleep namore than dooth a nightingale."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.99",
+      "syllables": 11,
+      "text": "Curteys he was, lowly, and servisable,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.100",
+      "syllables": 11,
+      "text": "And carf biforn his fader at the table."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.101",
+      "syllables": 10,
+      "text": "A YEMAN hadde he, and servaunts namo"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.102",
+      "syllables": 11,
+      "text": "At that tyme, for him liste ryde so;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.103",
+      "syllables": 11,
+      "text": "And he was clad in cote and hood of grene;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.104",
+      "syllables": 11,
+      "text": "A sheef of pecok-arwes brighte and kene"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.105",
+      "syllables": 10,
+      "text": "Under his belt he bar ful thriftily;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.106",
+      "syllables": 10,
+      "text": "(Wel coude he dresse his takel yemanly:"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.107",
+      "syllables": 12,
+      "text": "His arwes drouped noght with fetheres lowe),"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.108",
+      "syllables": 11,
+      "text": "And in his hand he bar a mighty bowe."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.109",
+      "syllables": 11,
+      "text": "A not-heed hadde he, with a broun visage."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.110",
+      "syllables": 12,
+      "text": "Of wode-craft wel coude he al the usage."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.111",
+      "syllables": 10,
+      "text": "Upon his arm he bar a gay bracer,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.112",
+      "syllables": 11,
+      "text": "And by his syde a swerd and a bokeler,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.113",
+      "syllables": 11,
+      "text": "And on that other syde a gay daggere,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.114",
+      "syllables": 11,
+      "text": "Harneised wel, and sharp as point of spere;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.115",
+      "syllables": 11,
+      "text": "A Cristofre on his brest of silver shene."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.116",
+      "syllables": 11,
+      "text": "An horn he bar, the bawdrik was of grene;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.117",
+      "syllables": 11,
+      "text": "A forster was he, soothly, as I gesse."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.118",
+      "syllables": 11,
+      "text": "Ther was also a Nonne, a PRIORESSE,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.119",
+      "syllables": 10,
+      "text": "That of hir smyling was ful simple and coy;"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "9 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.120",
+      "syllables": 9,
+      "text": "Hir gretteste ooth was but by sëynt Loy;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.121",
+      "syllables": 11,
+      "text": "And she was cleped madame Eglentyne."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.122",
+      "syllables": 11,
+      "text": "Ful wel she song the service divyne,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.123",
+      "syllables": 11,
+      "text": "Entuned in hir nose ful semely;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.124",
+      "syllables": 10,
+      "text": "And Frensh she spak ful faire and fetisly,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.125",
+      "syllables": 11,
+      "text": "After the scole of Stratford atte Bowe,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.126",
+      "syllables": 11,
+      "text": "For Frensh of Paris was to hir unknowe."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.127",
+      "syllables": 11,
+      "text": "At mete wel y-taught was she with-alle;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.128",
+      "syllables": 11,
+      "text": "She leet no morsel from hir lippes falle,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.129",
+      "syllables": 11,
+      "text": "Ne wette hir fingres in hir sauce depe."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "13 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.130",
+      "syllables": 13,
+      "text": "Wel coude she carie a morsel, and wel kepe,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.131",
+      "syllables": 10,
+      "text": "That no drope ne fille up-on hir brest."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.132",
+      "syllables": 11,
+      "text": "In curteisye was set ful muche hir lest."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.133",
+      "syllables": 11,
+      "text": "Hir over lippe wyped she so clene,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.134",
+      "syllables": 11,
+      "text": "That in hir coppe was no ferthing sene"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.135",
+      "syllables": 11,
+      "text": "Of grece, whan she dronken hadde hir draughte."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.136",
+      "syllables": 12,
+      "text": "Ful semely after hir mete she raughte,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.137",
+      "syllables": 10,
+      "text": "And sikerly she was of greet disport,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.138",
+      "syllables": 10,
+      "text": "And ful plesaunt, and amiable of port,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.139",
+      "syllables": 11,
+      "text": "And peyned hir to countrefete chere"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.140",
+      "syllables": 11,
+      "text": "Of court, and been estatlich of manere,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.141",
+      "syllables": 11,
+      "text": "And to ben holden digne of reverence."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.142",
+      "syllables": 11,
+      "text": "But, for to speken of hir conscience,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.143",
+      "syllables": 10,
+      "text": "She was so charitable and so pitous,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.144",
+      "syllables": 10,
+      "text": "She wolde wepe, if that she sawe a mous"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.145",
+      "syllables": 12,
+      "text": "Caught in a trappe, if it were deed or bledde."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.146",
+      "syllables": 11,
+      "text": "Of smale houndes had she, that she fedde"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.147",
+      "syllables": 10,
+      "text": "With rosted flesh, or milk and wastel-breed."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.148",
+      "syllables": 12,
+      "text": "But sore weep she if oon of hem were deed,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.149",
+      "syllables": 11,
+      "text": "Or if men smoot it with a yerde smerte:"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.150",
+      "syllables": 11,
+      "text": "And al was conscience and tendre herte."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.151",
+      "syllables": 10,
+      "text": "Ful semely hir wimpel pinched was;"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.152",
+      "syllables": 11,
+      "text": "Hir nose tretys; hir eyen greye as glas;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.153",
+      "syllables": 10,
+      "text": "Hir mouth ful smal, and ther-to softe and reed;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.154",
+      "syllables": 10,
+      "text": "But sikerly she hadde a fair forheed;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.155",
+      "syllables": 11,
+      "text": "It was almost a spanne brood, I trowe;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.156",
+      "syllables": 11,
+      "text": "For, hardily, she was nat undergrowe."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.157",
+      "syllables": 10,
+      "text": "Ful fetis was hir cloke, as I was war."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.158",
+      "syllables": 10,
+      "text": "Of smal coral aboute hir arm she bar"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.159",
+      "syllables": 11,
+      "text": "A peire of bedes, gauded al with grene;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.160",
+      "syllables": 11,
+      "text": "And ther-on heng a broche of gold ful shene,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.161",
+      "syllables": 10,
+      "text": "On which ther was first write a crowned A,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.162",
+      "syllables": 10,
+      "text": "And after, _Amor vincit omnia._"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.163",
+      "syllables": 10,
+      "text": "Another NONNE with hir hadde she,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.164",
+      "syllables": 10,
+      "text": "That was hir chapeleyne, and PREESTES three."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.165",
+      "syllables": 11,
+      "text": "A MONK ther was, a fair for the maistrye,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "13 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.166",
+      "syllables": 13,
+      "text": "An out-rydere, that lovede venerye;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.167",
+      "syllables": 11,
+      "text": "A manly man, to been an abbot able."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.168",
+      "syllables": 12,
+      "text": "Ful many a deyntee hors hadde he in stable:"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.169",
+      "syllables": 11,
+      "text": "And, whan he rood, men mighte his brydel here"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.170",
+      "syllables": 10,
+      "text": "Ginglen in a whistling wind as clere,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.171",
+      "syllables": 11,
+      "text": "And eek as loude as dooth the chapel-belle,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.172",
+      "syllables": 11,
+      "text": "Ther as this lord was keper of the celle."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.173",
+      "syllables": 10,
+      "text": "The reule of seint Maure or of seint Beneit,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.174",
+      "syllables": 11,
+      "text": "By-cause that it was old and som-del streit,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.175",
+      "syllables": 11,
+      "text": "This ilke monk leet olde thinges pace,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.176",
+      "syllables": 11,
+      "text": "And held after the newe world the space."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.177",
+      "syllables": 10,
+      "text": "He yaf nat of that text a pulled hen,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.178",
+      "syllables": 10,
+      "text": "That seith, that hunters been nat holy men;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.179",
+      "syllables": 10,
+      "text": "Ne that a monk, whan he is cloisterlees,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.180",
+      "syllables": 11,
+      "text": "Is lykned til a fish that is waterlees;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.181",
+      "syllables": 11,
+      "text": "This is to seyn, a monk out of his cloistre."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.182",
+      "syllables": 11,
+      "text": "But thilke text held he nat worth an oistre;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.183",
+      "syllables": 10,
+      "text": "And I seyde, his opinioun was good."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.184",
+      "syllables": 11,
+      "text": "What sholde he studie, and make him-selven wood,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.185",
+      "syllables": 11,
+      "text": "Upon a book in cloistre alwey to poure,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.186",
+      "syllables": 11,
+      "text": "Or swinken with his handes, and laboure,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.187",
+      "syllables": 11,
+      "text": "As Austin bit? How shal the world be served?"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.188",
+      "syllables": 11,
+      "text": "Lat Austin have his swink to him reserved."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.189",
+      "syllables": 10,
+      "text": "Therfore he was a pricasour aright;"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.190",
+      "syllables": 12,
+      "text": "Grehoundes he hadde, as swifte as fowel in flight;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.191",
+      "syllables": 11,
+      "text": "Of priking and of hunting for the hare"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.192",
+      "syllables": 11,
+      "text": "Was al his lust, for no cost wolde he spare."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.193",
+      "syllables": 11,
+      "text": "I seigh his sleves purfiled at the hond"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.194",
+      "syllables": 10,
+      "text": "With grys, and that the fyneste of a lond;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.195",
+      "syllables": 10,
+      "text": "And, for to festne his hood under his chin,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.196",
+      "syllables": 11,
+      "text": "He hadde of gold y-wroght a curious pin:"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.197",
+      "syllables": 12,
+      "text": "A love-knotte in the gretter ende ther was."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.198",
+      "syllables": 11,
+      "text": "His heed was balled, that shoon as any glas,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.199",
+      "syllables": 10,
+      "text": "And eek his face, as he had been anoint."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.200",
+      "syllables": 10,
+      "text": "He was a lord ful fat and in good point;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.201",
+      "syllables": 10,
+      "text": "His eyen stepe, and rollinge in his heed,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.202",
+      "syllables": 10,
+      "text": "That stemed as a forneys of a leed;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.203",
+      "syllables": 10,
+      "text": "His botes souple, his hors in greet estat."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.204",
+      "syllables": 10,
+      "text": "Now certeinly he was a fair prelat;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.205",
+      "syllables": 10,
+      "text": "He was nat pale as a for-pyned goost."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.206",
+      "syllables": 11,
+      "text": "A fat swan loved he best of any roost."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.207",
+      "syllables": 12,
+      "text": "His palfrey was as broun as is a berye."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "13 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.208",
+      "syllables": 13,
+      "text": "A FRERE ther was, a wantown and a merye,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.209",
+      "syllables": 10,
+      "text": "A limitour, a ful solempne man."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.210",
+      "syllables": 11,
+      "text": "In alle the ordres foure is noon that can"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.211",
+      "syllables": 11,
+      "text": "So muche of daliaunce and fair langage."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "13 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.212",
+      "syllables": 13,
+      "text": "He hadde maad ful many a mariage"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.213",
+      "syllables": 10,
+      "text": "Of yonge wommen, at his owne cost."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.214",
+      "syllables": 10,
+      "text": "Un-to his ordre he was a noble post."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.215",
+      "syllables": 12,
+      "text": "Ful wel biloved and famulier was he"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.216",
+      "syllables": 11,
+      "text": "With frankeleyns over-al in his contree,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.217",
+      "syllables": 10,
+      "text": "And eek with worthy wommen of the toun:"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.218",
+      "syllables": 10,
+      "text": "For he had power of confessioun,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.219",
+      "syllables": 10,
+      "text": "As seyde him-self, more than a curat,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.220",
+      "syllables": 10,
+      "text": "For of his ordre he was licentiat."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.221",
+      "syllables": 10,
+      "text": "Ful swetely herde he confessioun,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.222",
+      "syllables": 10,
+      "text": "And plesaunt was his absolucioun;"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.223",
+      "syllables": 12,
+      "text": "He was an esy man to yeve penaunce"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.224",
+      "syllables": 12,
+      "text": "Ther as he wiste to han a good pitaunce;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.225",
+      "syllables": 11,
+      "text": "For unto a povre ordre for to yive"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.226",
+      "syllables": 11,
+      "text": "Is signe that a man is wel y-shrive."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.227",
+      "syllables": 10,
+      "text": "For if he yaf, he dorste make avaunt,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.228",
+      "syllables": 10,
+      "text": "He wiste that a man was repentaunt."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.229",
+      "syllables": 12,
+      "text": "For many a man so hard is of his herte,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.230",
+      "syllables": 11,
+      "text": "He may nat wepe al-thogh him sore smerte."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.231",
+      "syllables": 11,
+      "text": "Therfore, in stede of weping and preyeres,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.232",
+      "syllables": 12,
+      "text": "Men moot yeve silver to the povre freres."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.233",
+      "syllables": 11,
+      "text": "His tipet was ay farsed ful of knyves"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.234",
+      "syllables": 11,
+      "text": "And pinnes, for to yeven faire wyves."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.235",
+      "syllables": 11,
+      "text": "And certeinly he hadde a mery note;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.236",
+      "syllables": 11,
+      "text": "Wel coude he singe and pleyen on a rote."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.237",
+      "syllables": 11,
+      "text": "Of yeddinges he bar utterly the prys."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.238",
+      "syllables": 10,
+      "text": "His nekke whyt was as the flour-de-lys;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.239",
+      "syllables": 10,
+      "text": "Ther-to he strong was as a champioun."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.240",
+      "syllables": 11,
+      "text": "He knew the tavernes wel in every toun,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.241",
+      "syllables": 12,
+      "text": "And everich hostiler and tappestere"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.242",
+      "syllables": 11,
+      "text": "Bet than a lazar or a beggestere;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.243",
+      "syllables": 10,
+      "text": "For un-to swich a worthy man as he"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.244",
+      "syllables": 10,
+      "text": "Acorded nat, as by his facultee,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.245",
+      "syllables": 12,
+      "text": "To have with seke lazars aqueyntaunce."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.246",
+      "syllables": 11,
+      "text": "It is nat honest, it may nat avaunce"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.247",
+      "syllables": 10,
+      "text": "For to delen with no swich poraille,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.248",
+      "syllables": 11,
+      "text": "But al with riche and sellers of vitaille."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.249",
+      "syllables": 12,
+      "text": "And over-al, ther as profit sholde aryse,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.250",
+      "syllables": 11,
+      "text": "Curteys he was, and lowly of servyse."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.251",
+      "syllables": 10,
+      "text": "Ther nas no man no-wher so vertuous."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.252",
+      "syllables": 10,
+      "text": "He was the beste beggere in his hous;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.252b",
+      "syllables": 10,
+      "text": "[And yaf a certeyn ferme for the graunt;"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.252c",
+      "syllables": 11,
+      "text": "Noon of his bretheren cam ther in his haunt;]"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "9 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.253",
+      "syllables": 9,
+      "text": "For thogh a widwe hadde noght a sho,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.254",
+      "syllables": 10,
+      "text": "So plesaunt was his \"_In principio_,\""
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.255",
+      "syllables": 11,
+      "text": "Yet wolde he have a ferthing, er he wente."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.256",
+      "syllables": 11,
+      "text": "His purchas was wel bettre than his rente."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.257",
+      "syllables": 12,
+      "text": "And rage he coude, as it were right a whelpe."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.258",
+      "syllables": 12,
+      "text": "In love-dayes ther coude he muchel helpe."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.259",
+      "syllables": 10,
+      "text": "For there he was nat lyk a cloisterer,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.260",
+      "syllables": 12,
+      "text": "With a thredbar cope, as is a povre scoler,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.261",
+      "syllables": 11,
+      "text": "But he was lyk a maister or a pope."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.262",
+      "syllables": 11,
+      "text": "Of double worsted was his semi-cope,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.263",
+      "syllables": 11,
+      "text": "That rounded as a belle out of the presse."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.264",
+      "syllables": 11,
+      "text": "Somwhat he lipsed, for his wantownesse,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.265",
+      "syllables": 11,
+      "text": "To make his English swete up-on his tonge;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.266",
+      "syllables": 11,
+      "text": "And in his harping, whan that he had songe,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.267",
+      "syllables": 10,
+      "text": "His eyen twinkled in his heed aright,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.268",
+      "syllables": 10,
+      "text": "As doon the sterres in the frosty night."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.269",
+      "syllables": 11,
+      "text": "This worthy limitour was cleped Huberd."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.270",
+      "syllables": 10,
+      "text": "A MARCHANT was ther with a forked berd,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.271",
+      "syllables": 10,
+      "text": "In mottelee, and hye on horse he sat,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.272",
+      "syllables": 10,
+      "text": "Up-on his heed a Flaundrish bever hat;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.273",
+      "syllables": 10,
+      "text": "His botes clasped faire and fetisly."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.274",
+      "syllables": 10,
+      "text": "His resons he spak ful solempnely,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.275",
+      "syllables": 10,
+      "text": "Souninge alway thencrees of his winning."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.276",
+      "syllables": 12,
+      "text": "He wolde the see were kept for any thing"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.277",
+      "syllables": 11,
+      "text": "Bitwixe Middelburgh and Orewelle."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.278",
+      "syllables": 11,
+      "text": "Wel coude he in eschaunge sheeldes selle."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.279",
+      "syllables": 11,
+      "text": "This worthy man ful wel his wit bisette;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.280",
+      "syllables": 11,
+      "text": "Ther wiste no wight that he was in dette,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.281",
+      "syllables": 12,
+      "text": "So estatly was he of his governaunce,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.282",
+      "syllables": 12,
+      "text": "With his bargaynes, and with his chevisaunce."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.283",
+      "syllables": 11,
+      "text": "For sothe he was a worthy man with-alle,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.284",
+      "syllables": 11,
+      "text": "But sooth to seyn, I noot how men him calle."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.285",
+      "syllables": 10,
+      "text": "A CLERK ther was of Oxenford also,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.286",
+      "syllables": 10,
+      "text": "That un-to logik hadde longe y-go."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.287",
+      "syllables": 11,
+      "text": "As lene was his hors as is a rake,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.288",
+      "syllables": 11,
+      "text": "And he nas nat right fat, I undertake;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.289",
+      "syllables": 10,
+      "text": "But loked holwe, and ther-to soberly."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.290",
+      "syllables": 11,
+      "text": "Ful thredbar was his overest courtepy;"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.291",
+      "syllables": 12,
+      "text": "For he had geten him yet no benefyce,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.292",
+      "syllables": 11,
+      "text": "Ne was so worldly for to have offyce."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.293",
+      "syllables": 11,
+      "text": "For him was lever have at his beddes heed"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "9 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.294",
+      "syllables": 9,
+      "text": "Twenty bokes, clad in blak or reed,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.295",
+      "syllables": 11,
+      "text": "Of Aristotle and his philosophye,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.296",
+      "syllables": 12,
+      "text": "Than robes riche, or fithele, or gay sautrye."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.297",
+      "syllables": 11,
+      "text": "But al be that he was a philosophre,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.298",
+      "syllables": 10,
+      "text": "Yet hadde he but litel gold in cofre;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.299",
+      "syllables": 11,
+      "text": "But al that he mighte of his freendes hente,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.300",
+      "syllables": 11,
+      "text": "On bokes and on lerninge he it spente,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.301",
+      "syllables": 11,
+      "text": "And bisily gan for the soules preye"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.302",
+      "syllables": 11,
+      "text": "Of hem that yaf him wher-with to scoleye."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.303",
+      "syllables": 12,
+      "text": "Of studie took he most cure and most hede."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.304",
+      "syllables": 11,
+      "text": "Noght o word spak he more than was nede,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.305",
+      "syllables": 11,
+      "text": "And that was seyd in forme and reverence,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.306",
+      "syllables": 11,
+      "text": "And short and quik, and ful of hy sentence."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.307",
+      "syllables": 11,
+      "text": "Souninge in moral vertu was his speche,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.308",
+      "syllables": 11,
+      "text": "And gladly wolde he lerne, and gladly teche."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.309",
+      "syllables": 10,
+      "text": "A SERGEANT OF THE LAWE, war and wys,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.310",
+      "syllables": 10,
+      "text": "That often hadde been at the parvys,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.311",
+      "syllables": 11,
+      "text": "Ther was also, ful riche of excellence."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.312",
+      "syllables": 11,
+      "text": "Discreet he was, and of greet reverence:"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.313",
+      "syllables": 12,
+      "text": "He semed swich, his wordes weren so wyse."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.314",
+      "syllables": 12,
+      "text": "Iustyce he was ful often in assyse,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.315",
+      "syllables": 10,
+      "text": "By patente, and by pleyn commissioun;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.316",
+      "syllables": 10,
+      "text": "For his science, and for his heigh renoun"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.317",
+      "syllables": 10,
+      "text": "Of fees and robes hadde he many oon."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.318",
+      "syllables": 10,
+      "text": "So greet a purchasour was no-wher noon."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.319",
+      "syllables": 10,
+      "text": "Al was fee simple to him in effect,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.320",
+      "syllables": 10,
+      "text": "His purchasing mighte nat been infect."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.321",
+      "syllables": 11,
+      "text": "No-wher so bisy a man as he ther nas,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.322",
+      "syllables": 11,
+      "text": "And yet he semed bisier than he was."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.323",
+      "syllables": 12,
+      "text": "In termes hadde he caas and domes alle,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "13 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.324",
+      "syllables": 13,
+      "text": "That from the tyme of king William were falle."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.325",
+      "syllables": 10,
+      "text": "Therto he coude endyte, and make a thing,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.326",
+      "syllables": 10,
+      "text": "Ther coude no wight pinche at his wryting;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.327",
+      "syllables": 11,
+      "text": "And every statut coude he pleyn by rote."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.328",
+      "syllables": 11,
+      "text": "He rood but hoomly in a medlee cote"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.329",
+      "syllables": 11,
+      "text": "Girt with a ceint of silk, with barres smale;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.330",
+      "syllables": 11,
+      "text": "Of his array telle I no lenger tale."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.331",
+      "syllables": 11,
+      "text": "A FRANKELEYN was in his companye;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.332",
+      "syllables": 11,
+      "text": "Whyt was his berd, as is the dayesye."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.333",
+      "syllables": 10,
+      "text": "Of his complexioun he was sangwyn."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.334",
+      "syllables": 11,
+      "text": "Wel loved he by the morwe a sop in wyn."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.335",
+      "syllables": 12,
+      "text": "To liven in delyt was ever his wone,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.336",
+      "syllables": 11,
+      "text": "For he was Epicurus owne sone,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.337",
+      "syllables": 10,
+      "text": "That heeld opinioun, that pleyn delyt"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.338",
+      "syllables": 10,
+      "text": "Was verraily felicitee parfyt."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.339",
+      "syllables": 10,
+      "text": "An housholdere, and that a greet, was he;"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.340",
+      "syllables": 11,
+      "text": "Seint Iulian he was in his contree."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.341",
+      "syllables": 11,
+      "text": "His breed, his ale, was alwey after oon;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.342",
+      "syllables": 10,
+      "text": "A bettre envyned man was no-wher noon."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.343",
+      "syllables": 12,
+      "text": "With-oute bake mete was never his hous,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.344",
+      "syllables": 10,
+      "text": "Of fish and flesh, and that so plentevous,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.345",
+      "syllables": 11,
+      "text": "It snewed in his hous of mete and drinke,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.346",
+      "syllables": 11,
+      "text": "Of alle deyntees that men coude thinke."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.347",
+      "syllables": 10,
+      "text": "After the sondry sesons of the yeer,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.348",
+      "syllables": 10,
+      "text": "So chaunged he his mete and his soper."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.349",
+      "syllables": 12,
+      "text": "Ful many a fat partrich hadde he in mewe,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "13 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.350",
+      "syllables": 13,
+      "text": "And many a breem and many a luce in stewe."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.351",
+      "syllables": 11,
+      "text": "Wo was his cook, but-if his sauce were"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.352",
+      "syllables": 11,
+      "text": "Poynaunt and sharp, and redy al his gere."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.353",
+      "syllables": 10,
+      "text": "His table dormant in his halle alway"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.354",
+      "syllables": 11,
+      "text": "Stood redy covered al the longe day."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.355",
+      "syllables": 11,
+      "text": "At sessiouns ther was he lord and sire;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.356",
+      "syllables": 11,
+      "text": "Ful ofte tyme he was knight of the shire."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.357",
+      "syllables": 10,
+      "text": "An anlas and a gipser al of silk"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.358",
+      "syllables": 10,
+      "text": "Heng at his girdel, whyt as morne milk."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.359",
+      "syllables": 10,
+      "text": "A shirreve hadde he been, and a countour;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.360",
+      "syllables": 10,
+      "text": "Was no-wher such a worthy vavasour."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.361",
+      "syllables": 10,
+      "text": "An HABERDASSHER and a CARPENTER,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.362",
+      "syllables": 10,
+      "text": "A WEBBE, a DYERE, and a TAPICER,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.363",
+      "syllables": 12,
+      "text": "Were with us eek, clothed in o liveree,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.364",
+      "syllables": 10,
+      "text": "Of a solempne and greet fraternitee."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.365",
+      "syllables": 10,
+      "text": "Ful fresh and newe hir gere apyked was;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.366",
+      "syllables": 10,
+      "text": "Hir knyves were y-chaped noght with bras,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.367",
+      "syllables": 10,
+      "text": "But al with silver, wroght ful clene and weel,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.368",
+      "syllables": 10,
+      "text": "Hir girdles and hir pouches every-deel."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.369",
+      "syllables": 10,
+      "text": "Wel semed ech of hem a fair burgeys,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.370",
+      "syllables": 10,
+      "text": "To sitten in a yeldhalle on a deys."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.371",
+      "syllables": 10,
+      "text": "Everich, for the wisdom that he can,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.372",
+      "syllables": 10,
+      "text": "Was shaply for to been an alderman."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.373",
+      "syllables": 11,
+      "text": "For catel hadde they y-nogh and rente,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.374",
+      "syllables": 11,
+      "text": "And eek hir wyves wolde it wel assente;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.375",
+      "syllables": 11,
+      "text": "And elles certein were they to blame."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.376",
+      "syllables": 11,
+      "text": "It is ful fair to been y-clept \"_ma dame_,\""
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.377",
+      "syllables": 10,
+      "text": "And goon to vigilyës al bifore,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.378",
+      "syllables": 11,
+      "text": "And have a mantel royalliche y-bore."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.379",
+      "syllables": 11,
+      "text": "A COOK they hadde with hem for the nones,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.380",
+      "syllables": 12,
+      "text": "To boille the chiknes with the mary-bones,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.381",
+      "syllables": 11,
+      "text": "And poudre-marchant tart, and galingale."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.382",
+      "syllables": 11,
+      "text": "Wel coude he knowe a draughte of London ale."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.383",
+      "syllables": 11,
+      "text": "He coude roste, and sethe, and broille, and frye,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.384",
+      "syllables": 10,
+      "text": "Maken mortreux, and wel bake a pye."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.385",
+      "syllables": 10,
+      "text": "But greet harm was it, as it thoughte me,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "9 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.386",
+      "syllables": 9,
+      "text": "That on his shine a mormal hadde he;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.387",
+      "syllables": 11,
+      "text": "For blankmanger, that made he with the beste."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.388",
+      "syllables": 11,
+      "text": "A SHIPMAN was ther, woning fer by weste:"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.389",
+      "syllables": 11,
+      "text": "For aught I woot, he was of Dertemouthe."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.390",
+      "syllables": 11,
+      "text": "He rood up-on a rouncy, as he couthe,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "9 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.391",
+      "syllables": 9,
+      "text": "In a gowne of falding to the knee."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.392",
+      "syllables": 12,
+      "text": "A daggere hanging on a laas hadde he"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.393",
+      "syllables": 10,
+      "text": "Aboute his nekke under his arm adoun."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.394",
+      "syllables": 12,
+      "text": "The hote somer had maad his hewe al broun;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.395",
+      "syllables": 11,
+      "text": "And, certeinly, he was a good felawe."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.396",
+      "syllables": 12,
+      "text": "Ful many a draughte of wyn had he y-drawe"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.397",
+      "syllables": 10,
+      "text": "From Burdeux-ward, whyl that the chapman sleep."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.398",
+      "syllables": 11,
+      "text": "Of nyce conscience took he no keep."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.399",
+      "syllables": 11,
+      "text": "If that he faught, and hadde the hyer hond,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.400",
+      "syllables": 11,
+      "text": "By water he sente hem hoom to every lond."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.401",
+      "syllables": 12,
+      "text": "But of his craft to rekene wel his tydes,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.402",
+      "syllables": 11,
+      "text": "His stremes and his daungers him bisydes,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.403",
+      "syllables": 12,
+      "text": "His herberwe and his mone, his lodemenage,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.404",
+      "syllables": 11,
+      "text": "Ther nas noon swich from Hulle to Cartage."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.405",
+      "syllables": 11,
+      "text": "Hardy he was, and wys to undertake;"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.406",
+      "syllables": 12,
+      "text": "With many a tempest hadde his berd been shake."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "13 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.407",
+      "syllables": 13,
+      "text": "He knew wel alle the havenes, as they were,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.408",
+      "syllables": 11,
+      "text": "From Gootlond to the cape of Finistere,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.409",
+      "syllables": 11,
+      "text": "And every cryke in Britayne and in Spayne;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.410",
+      "syllables": 11,
+      "text": "His barge y-cleped was the Maudelayne."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.411",
+      "syllables": 10,
+      "text": "With us ther was a DOCTOUR OF PHISYK,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.412",
+      "syllables": 10,
+      "text": "In al this world ne was ther noon him lyk"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.413",
+      "syllables": 11,
+      "text": "To speke of phisik and of surgerye;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.414",
+      "syllables": 11,
+      "text": "For he was grounded in astronomye."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.415",
+      "syllables": 10,
+      "text": "He kepte his pacient a ful greet del"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.416",
+      "syllables": 10,
+      "text": "In houres, by his magik naturel."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.417",
+      "syllables": 10,
+      "text": "Wel coude he fortunen the ascendent"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.418",
+      "syllables": 10,
+      "text": "Of his images for his pacient."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.419",
+      "syllables": 12,
+      "text": "He knew the cause of everich maladye,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.420",
+      "syllables": 11,
+      "text": "Were it of hoot or cold, or moiste, or drye,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.421",
+      "syllables": 10,
+      "text": "And where engendred, and of what humour;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.422",
+      "syllables": 10,
+      "text": "He was a verrey parfit practisour."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.423",
+      "syllables": 11,
+      "text": "The cause y-knowe, and of his harm the rote,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.424",
+      "syllables": 11,
+      "text": "Anon he yaf the seke man his bote."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.425",
+      "syllables": 12,
+      "text": "Ful redy hadde he his apothecaries,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.426",
+      "syllables": 12,
+      "text": "To sende him drogges and his letuaries,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.427",
+      "syllables": 11,
+      "text": "For ech of hem made other for to winne;"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.428",
+      "syllables": 12,
+      "text": "Hir frendschipe nas nat newe to biginne."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.429",
+      "syllables": 10,
+      "text": "Wel knew he the olde Esculapius,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "9 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.430",
+      "syllables": 9,
+      "text": "And Deiscorides, and eek Rufus,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.431",
+      "syllables": 10,
+      "text": "Old Ypocras, Haly, and Galien;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.432",
+      "syllables": 10,
+      "text": "Serapion, Razis, and Avicen;"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.433",
+      "syllables": 11,
+      "text": "Averrois, Damascien, and Constantyn;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.434",
+      "syllables": 10,
+      "text": "Bernard, and Gatesden, and Gilbertyn."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.435",
+      "syllables": 11,
+      "text": "Of his diete mesurable was he,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.436",
+      "syllables": 10,
+      "text": "For it was of no superfluitee,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.437",
+      "syllables": 11,
+      "text": "But of greet norissing and digestible."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.438",
+      "syllables": 12,
+      "text": "His studie was but litel on the Bible."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.439",
+      "syllables": 10,
+      "text": "In sangwin and in pers he clad was al,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.440",
+      "syllables": 10,
+      "text": "Lyned with taffata and with sendal;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.441",
+      "syllables": 11,
+      "text": "And yet he was but esy of dispence;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.442",
+      "syllables": 11,
+      "text": "He kepte that he wan in pestilence."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.443",
+      "syllables": 10,
+      "text": "For gold in phisik is a cordial,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.444",
+      "syllables": 11,
+      "text": "Therfore he lovede gold in special."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.445",
+      "syllables": 11,
+      "text": "A good WYF was ther of bisyde BATHE,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.446",
+      "syllables": 11,
+      "text": "But she was som-del deef, and that was scathe."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.447",
+      "syllables": 10,
+      "text": "Of clooth-making she hadde swiche an haunt,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.448",
+      "syllables": 10,
+      "text": "She passed hem of Ypres and of Gaunt."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.449",
+      "syllables": 11,
+      "text": "In al the parisshe wyf ne was ther noon"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.450",
+      "syllables": 11,
+      "text": "That to the offring bifore hir sholde goon;"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.451",
+      "syllables": 11,
+      "text": "And if ther dide, certeyn, so wrooth was she,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.452",
+      "syllables": 10,
+      "text": "That she was out of alle charitee."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.453",
+      "syllables": 11,
+      "text": "Hir coverchiefs ful fyne were of ground;"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.454",
+      "syllables": 11,
+      "text": "I dorste swere they weyeden ten pound"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.455",
+      "syllables": 10,
+      "text": "That on a Sonday were upon hir heed."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.456",
+      "syllables": 10,
+      "text": "Hir hosen weren of fyn scarlet reed,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.457",
+      "syllables": 11,
+      "text": "Ful streite y-teyd, and shoos ful moiste and newe."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.458",
+      "syllables": 11,
+      "text": "Bold was hir face, and fair, and reed of hewe."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.459",
+      "syllables": 11,
+      "text": "She was a worthy womman al hir lyve,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "13 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.460",
+      "syllables": 13,
+      "text": "Housbondes at chirche-dore she hadde fyve,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.461",
+      "syllables": 11,
+      "text": "Withouten other companye in youthe;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.462",
+      "syllables": 11,
+      "text": "But therof nedeth nat to speke as nouthe."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "13 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.463",
+      "syllables": 13,
+      "text": "And thryes hadde she been at Ierusalem;"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.464",
+      "syllables": 11,
+      "text": "She hadde passed many a straunge streem;"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.465",
+      "syllables": 12,
+      "text": "At Rome she hadde been, and at Boloigne,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.466",
+      "syllables": 12,
+      "text": "In Galice at seint Iame, and at Coloigne."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.467",
+      "syllables": 11,
+      "text": "She coude muche of wandring by the weye."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.468",
+      "syllables": 11,
+      "text": "Gat-tothed was she, soothly for to seye."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.469",
+      "syllables": 10,
+      "text": "Up-on an amblere esily she sat,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.470",
+      "syllables": 10,
+      "text": "Y-wimpled wel, and on hir heed an hat"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.471",
+      "syllables": 12,
+      "text": "As brood as is a bokeler or a targe;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.472",
+      "syllables": 11,
+      "text": "A foot-mantel aboute hir hipes large,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.473",
+      "syllables": 11,
+      "text": "And on hir feet a paire of spores sharpe."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.474",
+      "syllables": 12,
+      "text": "In felawschip wel coude she laughe and carpe."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "13 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.475",
+      "syllables": 13,
+      "text": "Of remedyes of love she knew per-chaunce,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.476",
+      "syllables": 11,
+      "text": "For she coude of that art the olde daunce."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.477",
+      "syllables": 10,
+      "text": "A good man was ther of religioun,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.478",
+      "syllables": 10,
+      "text": "And was a povre PERSOUN of a toun;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.479",
+      "syllables": 10,
+      "text": "But riche he was of holy thoght and werk."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.480",
+      "syllables": 10,
+      "text": "He was also a lerned man, a clerk,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.481",
+      "syllables": 12,
+      "text": "That Cristes gospel trewely wolde preche;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.482",
+      "syllables": 11,
+      "text": "His parisshens devoutly wolde he teche."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.483",
+      "syllables": 10,
+      "text": "Benigne he was, and wonder diligent,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.484",
+      "syllables": 10,
+      "text": "And in adversitee ful pacient;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.485",
+      "syllables": 11,
+      "text": "And swich he was y-preved ofte sythes."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.486",
+      "syllables": 11,
+      "text": "Ful looth were him to cursen for his tythes,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.487",
+      "syllables": 11,
+      "text": "But rather wolde he yeven, out of doute,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.488",
+      "syllables": 11,
+      "text": "Un-to his povre parisshens aboute"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.489",
+      "syllables": 11,
+      "text": "Of his offring, and eek of his substaunce."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.490",
+      "syllables": 11,
+      "text": "He coude in litel thing han suffisaunce."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.491",
+      "syllables": 12,
+      "text": "Wyd was his parisshe, and houses fer a-sonder,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.492",
+      "syllables": 11,
+      "text": "But he ne lafte nat, for reyn ne thonder,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.493",
+      "syllables": 12,
+      "text": "In siknes nor in meschief, to visyte"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.494",
+      "syllables": 12,
+      "text": "The ferreste in his parisshe, muche and lyte,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.495",
+      "syllables": 10,
+      "text": "Up-on his feet, and in his hand a staf."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.496",
+      "syllables": 10,
+      "text": "This noble ensample to his sheep he yaf,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.497",
+      "syllables": 11,
+      "text": "That first he wroghte, and afterward he taughte;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.498",
+      "syllables": 11,
+      "text": "Out of the gospel he tho wordes caughte;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.499",
+      "syllables": 10,
+      "text": "And this figure he added eek ther-to,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.500",
+      "syllables": 10,
+      "text": "That if gold ruste, what shal iren do?"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.501",
+      "syllables": 11,
+      "text": "For if a preest be foul, on whom we truste,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.502",
+      "syllables": 11,
+      "text": "No wonder is a lewed man to ruste;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.503",
+      "syllables": 10,
+      "text": "And shame it is, if a preest take keep,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.504",
+      "syllables": 10,
+      "text": "A shiten shepherde and a clene sheep."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.505",
+      "syllables": 11,
+      "text": "Wel oghte a preest ensample for to yive,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.506",
+      "syllables": 12,
+      "text": "By his clennesse, how that his sheep shold live."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.507",
+      "syllables": 12,
+      "text": "He sette nat his benefice to hyre,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.508",
+      "syllables": 11,
+      "text": "And leet his sheep encombred in the myre,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.509",
+      "syllables": 10,
+      "text": "And ran to London, un-to sëynt Poules,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.510",
+      "syllables": 12,
+      "text": "To seken him a chaunterie for soules,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.511",
+      "syllables": 11,
+      "text": "Or with a bretherhed to been withholde;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.512",
+      "syllables": 11,
+      "text": "But dwelte at hoom, and kepte wel his folde,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.513",
+      "syllables": 12,
+      "text": "So that the wolf ne made it nat miscarie;"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.514",
+      "syllables": 12,
+      "text": "He was a shepherde and no mercenarie."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.515",
+      "syllables": 10,
+      "text": "And though he holy were, and vertuous,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.516",
+      "syllables": 10,
+      "text": "He was to sinful man nat despitous,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.517",
+      "syllables": 11,
+      "text": "Ne of his speche daungerous ne digne,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.518",
+      "syllables": 11,
+      "text": "But in his teching discreet and benigne."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.519",
+      "syllables": 11,
+      "text": "To drawen folk to heven by fairnesse"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.520",
+      "syllables": 11,
+      "text": "By good ensample, was his bisinesse:"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.521",
+      "syllables": 10,
+      "text": "But it were any persone obstinat,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.522",
+      "syllables": 10,
+      "text": "What-so he were, of heigh or lowe estat,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.523",
+      "syllables": 11,
+      "text": "Him wolde he snibben sharply for the nones."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.524",
+      "syllables": 12,
+      "text": "A bettre preest, I trowe that nowher noon is."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.525",
+      "syllables": 12,
+      "text": "He wayted after no pompe and reverence,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.526",
+      "syllables": 11,
+      "text": "Ne maked him a spyced conscience,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.527",
+      "syllables": 11,
+      "text": "But Cristes lore, and his apostles twelve,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.528",
+      "syllables": 11,
+      "text": "He taughte, and first he folwed it him-selve."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.529",
+      "syllables": 11,
+      "text": "With him ther was a PLOWMAN, was his brother,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.530",
+      "syllables": 12,
+      "text": "That hadde y-lad of dong ful many a fother,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.531",
+      "syllables": 10,
+      "text": "A trewe swinker and a good was he,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.532",
+      "syllables": 10,
+      "text": "Livinge in pees and parfit charitee."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.533",
+      "syllables": 12,
+      "text": "God loved he best with al his hole herte"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.534",
+      "syllables": 12,
+      "text": "At alle tymes, thogh him gamed or smerte,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.535",
+      "syllables": 11,
+      "text": "And thanne his neighebour right as him-selve."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.536",
+      "syllables": 11,
+      "text": "He wolde thresshe, and ther-to dyke and delve,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.537",
+      "syllables": 11,
+      "text": "For Cristes sake, for every povre wight,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.538",
+      "syllables": 10,
+      "text": "Withouten hyre, if it lay in his might."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.539",
+      "syllables": 10,
+      "text": "His tythes payed he ful faire and wel,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.540",
+      "syllables": 10,
+      "text": "Bothe of his propre swink and his catel."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.541",
+      "syllables": 11,
+      "text": "In a tabard he rood upon a mere."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.542",
+      "syllables": 11,
+      "text": "Ther was also a Reve and a Millere,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.543",
+      "syllables": 10,
+      "text": "A Somnour and a Pardoner also,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.544",
+      "syllables": 11,
+      "text": "A Maunciple, and my-self; ther were namo."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.545",
+      "syllables": 11,
+      "text": "The MILLER was a stout carl, for the nones,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.546",
+      "syllables": 11,
+      "text": "Ful big he was of braun, and eek of bones;"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.547",
+      "syllables": 11,
+      "text": "That proved wel, for over-al ther he cam,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.548",
+      "syllables": 10,
+      "text": "At wrastling he wolde have alwey the ram."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.549",
+      "syllables": 11,
+      "text": "He was short-sholdred, brood, a thikke knarre,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "13 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.550",
+      "syllables": 13,
+      "text": "Ther nas no dore that he nolde heve of harre,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.551",
+      "syllables": 10,
+      "text": "Or breke it, at a renning, with his heed."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.552",
+      "syllables": 10,
+      "text": "His berd as any sowe or fox was reed,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.553",
+      "syllables": 11,
+      "text": "And ther-to brood, as though it were a spade."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.554",
+      "syllables": 11,
+      "text": "Up-on the cop right of his nose he hade"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.555",
+      "syllables": 11,
+      "text": "A werte, and ther-on stood a tuft of heres,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.556",
+      "syllables": 11,
+      "text": "Reed as the bristles of a sowes eres;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.557",
+      "syllables": 11,
+      "text": "His nose-thirles blake were and wyde."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.558",
+      "syllables": 12,
+      "text": "A swerd and bokeler bar he by his syde;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.559",
+      "syllables": 10,
+      "text": "His mouth as greet was as a greet forneys."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.560",
+      "syllables": 12,
+      "text": "He was a Ianglere and a goliardeys,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.561",
+      "syllables": 11,
+      "text": "And that was most of sinne and harlotryes."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.562",
+      "syllables": 11,
+      "text": "Wel coude he stelen corn, and tollen thryes;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.563",
+      "syllables": 10,
+      "text": "And yet he hadde a thombe of gold, pardee."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.564",
+      "syllables": 10,
+      "text": "A whyt cote and a blew hood wered he."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.565",
+      "syllables": 12,
+      "text": "A baggepype wel coude he blowe and sowne,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.566",
+      "syllables": 11,
+      "text": "And ther-with-al he broghte us out of towne."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.567",
+      "syllables": 12,
+      "text": "A gentil MAUNCIPLE was ther of a temple,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.568",
+      "syllables": 11,
+      "text": "Of which achatours mighte take exemple"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.569",
+      "syllables": 11,
+      "text": "For to be wyse in bying of vitaille."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.570",
+      "syllables": 11,
+      "text": "For whether that he payde, or took by taille,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.571",
+      "syllables": 10,
+      "text": "Algate he wayted so in his achat,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.572",
+      "syllables": 10,
+      "text": "That he was ay biforn and in good stat."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.573",
+      "syllables": 11,
+      "text": "Now is nat that of God a ful fair grace,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.574",
+      "syllables": 11,
+      "text": "That swich a lewed mannes wit shal pace"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.575",
+      "syllables": 10,
+      "text": "The wisdom of an heep of lerned men?"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.576",
+      "syllables": 10,
+      "text": "Of maistres hadde he mo than thryes ten,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.577",
+      "syllables": 10,
+      "text": "That were of lawe expert and curious;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.578",
+      "syllables": 10,
+      "text": "Of which ther were a doseyn in that hous,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.579",
+      "syllables": 11,
+      "text": "Worthy to been stiwardes of rente and lond"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.580",
+      "syllables": 10,
+      "text": "Of any lord that is in Engelond,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.581",
+      "syllables": 10,
+      "text": "To make him live by his propre good,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.582",
+      "syllables": 11,
+      "text": "In honour dettelees, but he were wood,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.583",
+      "syllables": 11,
+      "text": "Or live as scarsly as him list desire;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.584",
+      "syllables": 11,
+      "text": "And able for to helpen al a shire"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.585",
+      "syllables": 11,
+      "text": "In any cas that mighte falle or happe;"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.586",
+      "syllables": 12,
+      "text": "And yit this maunciple sette hir aller cappe."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.587",
+      "syllables": 11,
+      "text": "The REVE was a sclendre colerik man,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.588",
+      "syllables": 11,
+      "text": "His berd was shave as ny as ever he can."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.589",
+      "syllables": 10,
+      "text": "His heer was by his eres round y-shorn."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.590",
+      "syllables": 10,
+      "text": "His top was dokked lyk a preest biforn."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.591",
+      "syllables": 11,
+      "text": "Ful longe were his legges, and ful lene,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.592",
+      "syllables": 11,
+      "text": "Y-lyk a staf, ther was no calf y-sene."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.593",
+      "syllables": 11,
+      "text": "Wel coude he kepe a gerner and a binne;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.594",
+      "syllables": 11,
+      "text": "Ther was noon auditour coude on him winne."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.595",
+      "syllables": 10,
+      "text": "Wel wiste he, by the droghte, and by the reyn,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.596",
+      "syllables": 10,
+      "text": "The yelding of his seed, and of his greyn."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.597",
+      "syllables": 11,
+      "text": "His lordes sheep, his neet, his dayerye,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.598",
+      "syllables": 11,
+      "text": "His swyn, his hors, his stoor, and his pultrye,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.599",
+      "syllables": 10,
+      "text": "Was hoolly in this reves governing,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.600",
+      "syllables": 11,
+      "text": "And by his covenaunt yaf the rekening,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.601",
+      "syllables": 11,
+      "text": "Sin that his lord was twenty yeer of age;"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.602",
+      "syllables": 12,
+      "text": "Ther coude no man bringe him in arrerage."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.603",
+      "syllables": 12,
+      "text": "Ther nas baillif, ne herde, ne other hyne,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.604",
+      "syllables": 11,
+      "text": "That he ne knew his sleighte and his covyne;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.605",
+      "syllables": 10,
+      "text": "They were adrad of him, as of the deeth."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.606",
+      "syllables": 10,
+      "text": "His woning was ful fair up-on an heeth,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.607",
+      "syllables": 10,
+      "text": "With grene treës shadwed was his place."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.608",
+      "syllables": 11,
+      "text": "He coude bettre than his lord purchace."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.609",
+      "syllables": 10,
+      "text": "Ful riche he was astored prively,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.610",
+      "syllables": 10,
+      "text": "His lord wel coude he plesen subtilly,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.611",
+      "syllables": 10,
+      "text": "To yeve and lene him of his owne good,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.612",
+      "syllables": 10,
+      "text": "And have a thank, and yet a cote and hood."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.613",
+      "syllables": 10,
+      "text": "In youthe he lerned hadde a good mister;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.614",
+      "syllables": 10,
+      "text": "He was a wel good wrighte, a carpenter."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.615",
+      "syllables": 10,
+      "text": "This reve sat up-on a ful good stot,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.616",
+      "syllables": 11,
+      "text": "That was al pomely grey, and highte Scot."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.617",
+      "syllables": 11,
+      "text": "A long surcote of pers up-on he hade,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.618",
+      "syllables": 11,
+      "text": "And by his syde he bar a rusty blade."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.619",
+      "syllables": 11,
+      "text": "Of Northfolk was this reve, of which I telle,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.620",
+      "syllables": 11,
+      "text": "Bisyde a toun men clepen Baldeswelle."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.621",
+      "syllables": 11,
+      "text": "Tukked he was, as is a frere, aboute,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.622",
+      "syllables": 12,
+      "text": "And ever he rood the hindreste of our route."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.623",
+      "syllables": 11,
+      "text": "A SOMNOUR was ther with us in that place,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.624",
+      "syllables": 11,
+      "text": "That hadde a fyr-reed cherubinnes face,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.625",
+      "syllables": 11,
+      "text": "For sawcefleem he was, with eyen narwe."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.626",
+      "syllables": 12,
+      "text": "As hoot he was, and lecherous, as a sparwe;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.627",
+      "syllables": 10,
+      "text": "With scalled browes blake, and piled berd;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.628",
+      "syllables": 10,
+      "text": "Of his visage children were aferd."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.629",
+      "syllables": 11,
+      "text": "Ther nas quik-silver, litarge, ne brimstoon,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.630",
+      "syllables": 11,
+      "text": "Boras, ceruce, ne oille of tartre noon,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.631",
+      "syllables": 11,
+      "text": "Ne oynement that wolde dense and byte,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.632",
+      "syllables": 12,
+      "text": "That him mighte helpen of his whelkes whyte,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.633",
+      "syllables": 11,
+      "text": "Nor of the knobbes sittinge on his chekes."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.634",
+      "syllables": 12,
+      "text": "Wel loved he garleek, oynons, and eek lekes,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.635",
+      "syllables": 10,
+      "text": "And for to drinken strong wyn, reed as blood."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.636",
+      "syllables": 12,
+      "text": "Thanne wolde he speke, and crye as he were wood."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.637",
+      "syllables": 11,
+      "text": "And whan that he wel dronken hadde the wyn,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.638",
+      "syllables": 10,
+      "text": "Than wolde he speke no word but Latyn."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.639",
+      "syllables": 10,
+      "text": "A fewe termes hadde he, two or three,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.640",
+      "syllables": 10,
+      "text": "That he had lerned out of som decree;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.641",
+      "syllables": 10,
+      "text": "No wonder is, he herde it al the day;"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.642",
+      "syllables": 11,
+      "text": "And eek ye knowen wel, how that a Iay"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.643",
+      "syllables": 11,
+      "text": "Can clepen 'Watte,' as well as can the pope."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.644",
+      "syllables": 11,
+      "text": "But who-so coude in other thing him grope,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.645",
+      "syllables": 11,
+      "text": "Thanne hadde he spent al his philosophye;"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.646",
+      "syllables": 12,
+      "text": "Ay '_Questio quid iuris_' wolde he crye."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.647",
+      "syllables": 11,
+      "text": "He was a gentil harlot and a kinde;"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.648",
+      "syllables": 12,
+      "text": "A bettre felawe sholde men noght finde."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.649",
+      "syllables": 10,
+      "text": "He wolde suffre, for a quart of wyn,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.650",
+      "syllables": 11,
+      "text": "A good felawe to have his concubyn"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.651",
+      "syllables": 11,
+      "text": "A twelf-month, and excuse him atte fulle:"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.652",
+      "syllables": 11,
+      "text": "Ful prively a finch eek coude he pulle."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.653",
+      "syllables": 11,
+      "text": "And if he fond o-wher a good felawe,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.654",
+      "syllables": 12,
+      "text": "He wolde techen him to have non awe,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.655",
+      "syllables": 10,
+      "text": "In swich cas, of the erchedeknes curs,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.656",
+      "syllables": 11,
+      "text": "But-if a mannes soule were in his purs;"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.657",
+      "syllables": 11,
+      "text": "For in his purs he sholde y-punisshed be."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.658",
+      "syllables": 11,
+      "text": "'Purs is the erchedeknes helle,' seyde he."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.659",
+      "syllables": 11,
+      "text": "But wel I woot he lyed right in dede;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.660",
+      "syllables": 11,
+      "text": "Of cursing oghte ech gilty man him drede--"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.661",
+      "syllables": 11,
+      "text": "For curs wol slee, right as assoilling saveth--"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.662",
+      "syllables": 12,
+      "text": "And also war him of a _significavit_."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.663",
+      "syllables": 11,
+      "text": "In daunger hadde he at his owne gyse"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.664",
+      "syllables": 11,
+      "text": "The yonge girles of the diocyse,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.665",
+      "syllables": 10,
+      "text": "And knew hir counseil, and was al hir reed."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.666",
+      "syllables": 10,
+      "text": "A gerland hadde he set up-on his heed,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.667",
+      "syllables": 12,
+      "text": "As greet as it were for an ale-stake;"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "13 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.668",
+      "syllables": 13,
+      "text": "A bokeler hadde he maad him of a cake."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.669",
+      "syllables": 10,
+      "text": "With him ther rood a gentil PARDONER"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.670",
+      "syllables": 10,
+      "text": "Of Rouncival, his freend and his compeer,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.671",
+      "syllables": 11,
+      "text": "That streight was comen fro the court of Rome."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.672",
+      "syllables": 11,
+      "text": "Ful loude he song, 'Com hider, love, to me.'"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.673",
+      "syllables": 10,
+      "text": "This somnour bar to him a stif burdoun,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.674",
+      "syllables": 10,
+      "text": "Was never trompe of half so greet a soun."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.675",
+      "syllables": 12,
+      "text": "This pardoner hadde heer as yelow as wex,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.676",
+      "syllables": 10,
+      "text": "But smothe it heng, as dooth a strike of flex;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.677",
+      "syllables": 11,
+      "text": "By ounces henge his lokkes that he hadde,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.678",
+      "syllables": 11,
+      "text": "And ther-with he his shuldres overspradde;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.679",
+      "syllables": 10,
+      "text": "But thinne it lay, by colpons oon and oon;"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.680",
+      "syllables": 12,
+      "text": "But hood, for Iolitee, ne wered he noon,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.681",
+      "syllables": 10,
+      "text": "For it was trussed up in his walet."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.682",
+      "syllables": 10,
+      "text": "Him thoughte, he rood al of the newe Iet;"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.683",
+      "syllables": 12,
+      "text": "Dischevele, save his cappe, he rood al bare."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.684",
+      "syllables": 12,
+      "text": "Swiche glaringe eyen hadde he as an hare."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.685",
+      "syllables": 11,
+      "text": "A vernicle hadde he sowed on his cappe."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.686",
+      "syllables": 11,
+      "text": "His walet lay biforn him in his lappe,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.687",
+      "syllables": 11,
+      "text": "Bret-ful of pardoun come from Rome al hoot."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.688",
+      "syllables": 10,
+      "text": "A voys he hadde as smal as hath a goot."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.689",
+      "syllables": 10,
+      "text": "No berd hadde he, ne never sholde have,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.690",
+      "syllables": 12,
+      "text": "As smothe it was as it were late y-shave;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.691",
+      "syllables": 11,
+      "text": "I trowe he were a gelding or a mare."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.692",
+      "syllables": 11,
+      "text": "But of his craft, fro Berwik into Ware,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.693",
+      "syllables": 10,
+      "text": "Ne was ther swich another pardoner."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.694",
+      "syllables": 10,
+      "text": "For in his male he hadde a pilwe-beer,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.695",
+      "syllables": 10,
+      "text": "Which that, he seyde, was our lady veyl:"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.696",
+      "syllables": 10,
+      "text": "He seyde, he hadde a gobet of the seyl"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.697",
+      "syllables": 11,
+      "text": "That sëynt Peter hadde, whan that he wente"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.698",
+      "syllables": 12,
+      "text": "Up-on the see, til Iesu Crist him hente."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.699",
+      "syllables": 11,
+      "text": "He hadde a croys of latoun, ful of stones,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.700",
+      "syllables": 11,
+      "text": "And in a glas he hadde pigges bones."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.701",
+      "syllables": 11,
+      "text": "But with thise relikes, whan that he fond"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.702",
+      "syllables": 10,
+      "text": "A povre person dwelling up-on lond,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.703",
+      "syllables": 12,
+      "text": "Up-on a day he gat him more moneye"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.704",
+      "syllables": 11,
+      "text": "Than that the person gat in monthes tweye."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.705",
+      "syllables": 12,
+      "text": "And thus, with feyned flaterye and Iapes,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.706",
+      "syllables": 12,
+      "text": "He made the person and the peple his apes."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.707",
+      "syllables": 11,
+      "text": "But trewely to tellen, atte laste,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.708",
+      "syllables": 11,
+      "text": "He was in chirche a noble ecclesiaste."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.709",
+      "syllables": 12,
+      "text": "Wel coude he rede a lessoun or a storie,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.710",
+      "syllables": 12,
+      "text": "But alderbest he song an offertorie;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.711",
+      "syllables": 11,
+      "text": "For wel he wiste, whan that song was songe,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.712",
+      "syllables": 11,
+      "text": "He moste preche, and wel affyle his tonge,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.713",
+      "syllables": 11,
+      "text": "To winne silver, as he ful wel coude;"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "13 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.714",
+      "syllables": 13,
+      "text": "Therefore he song so meriely and loude."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.715",
+      "syllables": 11,
+      "text": "Now have I told you shortly, in a clause,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.716",
+      "syllables": 11,
+      "text": "Thestat, tharray, the nombre, and eek the cause"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.717",
+      "syllables": 11,
+      "text": "Why that assembled was this companye"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.718",
+      "syllables": 11,
+      "text": "In Southwerk, at this gentil hostelrye,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.719",
+      "syllables": 12,
+      "text": "That highte the Tabard, faste by the Belle."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.720",
+      "syllables": 11,
+      "text": "But now is tyme to yow for to telle"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.721",
+      "syllables": 10,
+      "text": "How that we baren us that ilke night,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.722",
+      "syllables": 10,
+      "text": "Whan we were in that hostelrye alight."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.723",
+      "syllables": 11,
+      "text": "And after wol I telle of our viage,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.724",
+      "syllables": 12,
+      "text": "And al the remenaunt of our pilgrimage."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.725",
+      "syllables": 11,
+      "text": "But first I pray yow, of your curteisye,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.726",
+      "syllables": 11,
+      "text": "That ye narette it nat my vileinye,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.727",
+      "syllables": 11,
+      "text": "Thogh that I pleynly speke in this matere,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.728",
+      "syllables": 11,
+      "text": "To telle yow hir wordes and hir chere;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.729",
+      "syllables": 10,
+      "text": "Ne thogh I speke hir wordes properly."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.730",
+      "syllables": 10,
+      "text": "For this ye knowen al-so wel as I,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.731",
+      "syllables": 10,
+      "text": "Who-so shal telle a tale after a man,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.732",
+      "syllables": 11,
+      "text": "He moot reherce, as ny as ever he can,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.733",
+      "syllables": 12,
+      "text": "Everich a word, if it be in his charge,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.734",
+      "syllables": 12,
+      "text": "Al speke he never so rudeliche and large;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.735",
+      "syllables": 11,
+      "text": "Or elles he moot telle his tale untrewe,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.736",
+      "syllables": 11,
+      "text": "Or feyne thing, or finde wordes newe."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.737",
+      "syllables": 11,
+      "text": "He may nat spare, al-thogh he were his brother;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.738",
+      "syllables": 11,
+      "text": "He moot as wel seye o word as another."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.739",
+      "syllables": 10,
+      "text": "Crist spak him-self ful brode in holy writ,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.740",
+      "syllables": 10,
+      "text": "And wel ye woot, no vileinye is it."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.741",
+      "syllables": 11,
+      "text": "Eek Plato seith, who-so that can him rede,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.742",
+      "syllables": 12,
+      "text": "The wordes mote be cosin to the dede."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.743",
+      "syllables": 11,
+      "text": "Also I prey yow to foryeve it me,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.744",
+      "syllables": 10,
+      "text": "Al have I nat set folk in hir degree"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.745",
+      "syllables": 11,
+      "text": "Here in this tale, as that they sholde stonde;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.746",
+      "syllables": 11,
+      "text": "My wit is short, ye may wel understonde."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.747",
+      "syllables": 11,
+      "text": "Greet chere made our hoste us everichon,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.748",
+      "syllables": 10,
+      "text": "And to the soper sette he us anon;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.749",
+      "syllables": 11,
+      "text": "And served us with vitaille at the beste."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.750",
+      "syllables": 11,
+      "text": "Strong was the wyn, and wel to drinke us leste."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.751",
+      "syllables": 12,
+      "text": "A semely man our hoste was with-alle"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.752",
+      "syllables": 11,
+      "text": "For to han been a marshal in an halle;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.753",
+      "syllables": 11,
+      "text": "A large man he was with eyen stepe,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.754",
+      "syllables": 11,
+      "text": "A fairer burgeys is ther noon in Chepe:"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.755",
+      "syllables": 10,
+      "text": "Bold of his speche, and wys, and wel y-taught,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.756",
+      "syllables": 10,
+      "text": "And of manhod him lakkede right naught."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.757",
+      "syllables": 10,
+      "text": "Eek therto he was right a mery man,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.758",
+      "syllables": 10,
+      "text": "And after soper pleyen he bigan,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.759",
+      "syllables": 12,
+      "text": "And spak of mirthe amonges othere thinges,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.760",
+      "syllables": 12,
+      "text": "Whan that we hadde maad our rekeninges;"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.761",
+      "syllables": 11,
+      "text": "And seyde thus: 'Now, lordinges, trewely,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.762",
+      "syllables": 11,
+      "text": "Ye been to me right welcome hertely:"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.763",
+      "syllables": 11,
+      "text": "For by my trouthe, if that I shal nat lye,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "13 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.764",
+      "syllables": 13,
+      "text": "I ne saugh this yeer so mery a companye"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.765",
+      "syllables": 10,
+      "text": "At ones in this herberwe as is now."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.766",
+      "syllables": 10,
+      "text": "Fayn wolde I doon yow mirthe, wiste I how."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.767",
+      "syllables": 10,
+      "text": "And of a mirthe I am right now bithoght,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.768",
+      "syllables": 10,
+      "text": "To doon yow ese, and it shal coste noght."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.769",
+      "syllables": 11,
+      "text": "Ye goon to Caunterbury; God yow spede,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.770",
+      "syllables": 11,
+      "text": "The blisful martir quyte yow your mede."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.771",
+      "syllables": 11,
+      "text": "And wel I woot, as ye goon by the weye,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.772",
+      "syllables": 11,
+      "text": "Ye shapen yow to talen and to pleye;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.773",
+      "syllables": 10,
+      "text": "For trewely, confort ne mirthe is noon"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.774",
+      "syllables": 11,
+      "text": "To ryde by the weye doumb as a stoon;"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.775",
+      "syllables": 11,
+      "text": "And therfore wol I maken yow disport,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.776",
+      "syllables": 10,
+      "text": "As I seyde erst, and doon yow som confort."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.777",
+      "syllables": 11,
+      "text": "And if yow lyketh alle, by oon assent,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.778",
+      "syllables": 11,
+      "text": "Now for to stonden at my Iugement,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.779",
+      "syllables": 11,
+      "text": "And for to werken as I shal yow seye,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.780",
+      "syllables": 11,
+      "text": "To-morwe, whan ye ryden by the weye,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.781",
+      "syllables": 10,
+      "text": "Now, by my fader soule, that is deed,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.782",
+      "syllables": 12,
+      "text": "But ye be merye, I wol yeve yow myn heed."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.783",
+      "syllables": 11,
+      "text": "Hold up your hond, withouten more speche.'"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.784",
+      "syllables": 11,
+      "text": "Our counseil was nat longe for to seche;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.785",
+      "syllables": 10,
+      "text": "Us thoughte it was noght worth to make it wys,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.786",
+      "syllables": 10,
+      "text": "And graunted him withouten more avys,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.787",
+      "syllables": 11,
+      "text": "And bad him seye his verdit, as him leste."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.788",
+      "syllables": 12,
+      "text": "'Lordinges,' quod he, 'now herkneth for the beste;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.789",
+      "syllables": 10,
+      "text": "But tak it not, I prey yow, in desdeyn;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.790",
+      "syllables": 10,
+      "text": "This is the poynt, to speken short and pleyn,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.791",
+      "syllables": 11,
+      "text": "That ech of yow, to shorte with your weye,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.792",
+      "syllables": 12,
+      "text": "In this viage, shal telle tales tweye,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.793",
+      "syllables": 10,
+      "text": "To Caunterbury-ward, I mene it so,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.794",
+      "syllables": 11,
+      "text": "And hom-ward he shal tellen othere two,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.795",
+      "syllables": 12,
+      "text": "Of aventures that whylom han bifalle."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.796",
+      "syllables": 12,
+      "text": "And which of yow that bereth him best of alle,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.797",
+      "syllables": 10,
+      "text": "That is to seyn, that telleth in this cas"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.798",
+      "syllables": 10,
+      "text": "Tales of best sentence and most solas,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.799",
+      "syllables": 10,
+      "text": "Shal have a soper at our aller cost"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.800",
+      "syllables": 10,
+      "text": "Here in this place, sitting by this post,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.801",
+      "syllables": 11,
+      "text": "Whan that we come agayn fro Caunterbury."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.802",
+      "syllables": 11,
+      "text": "And for to make yow the more mery,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.803",
+      "syllables": 11,
+      "text": "I wol my-selven gladly with yow ryde,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.804",
+      "syllables": 11,
+      "text": "Right at myn owne cost, and be your gyde."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.805",
+      "syllables": 12,
+      "text": "And who-so wol my Iugement withseye"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.806",
+      "syllables": 11,
+      "text": "Shal paye al that we spenden by the weye."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.807",
+      "syllables": 10,
+      "text": "And if ye vouche-sauf that it be so,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.808",
+      "syllables": 10,
+      "text": "Tel me anon, with-outen wordes mo,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.809",
+      "syllables": 11,
+      "text": "And I wol erly shape me therfore.'"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.810",
+      "syllables": 11,
+      "text": "This thing was graunted, and our othes swore"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.811",
+      "syllables": 10,
+      "text": "With ful glad herte, and preyden him also"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.812",
+      "syllables": 10,
+      "text": "That he wold vouche-sauf for to do so,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.813",
+      "syllables": 10,
+      "text": "And that he wolde been our governour,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.814",
+      "syllables": 11,
+      "text": "And of our tales Iuge and reportour,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.815",
+      "syllables": 10,
+      "text": "And sette a soper at a certeyn prys;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.816",
+      "syllables": 10,
+      "text": "And we wold reuled been at his devys,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.817",
+      "syllables": 10,
+      "text": "In heigh and lowe; and thus, by oon assent,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.818",
+      "syllables": 11,
+      "text": "We been acorded to his Iugement."
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.819",
+      "syllables": 10,
+      "text": "And ther-up-on the wyn was fet anon;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.820",
+      "syllables": 10,
+      "text": "We dronken, and to reste wente echon,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.821",
+      "syllables": 11,
+      "text": "With-outen any lenger taryinge."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.822",
+      "syllables": 11,
+      "text": "A-morwe, whan that day bigan to springe,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.823",
+      "syllables": 10,
+      "text": "Up roos our host, and was our aller cok,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.824",
+      "syllables": 10,
+      "text": "And gadrede us togidre, alle in a flok,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.825",
+      "syllables": 12,
+      "text": "And forth we riden, a litel more than pas,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.826",
+      "syllables": 10,
+      "text": "Un-to the watering of seint Thomas."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.827",
+      "syllables": 11,
+      "text": "And there our host bigan his hors areste,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.828",
+      "syllables": 12,
+      "text": "And seyde; 'Lordinges, herkneth, if yow leste."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.829",
+      "syllables": 12,
+      "text": "Ye woot your forward, and I it yow recorde."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.830",
+      "syllables": 11,
+      "text": "If even-song and morwe-song acorde,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.831",
+      "syllables": 12,
+      "text": "Lat se now who shal telle the firste tale."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.832",
+      "syllables": 11,
+      "text": "As ever mote I drinke wyn or ale,"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.833",
+      "syllables": 11,
+      "text": "Who-so be rebel to my Iugement"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.834",
+      "syllables": 11,
+      "text": "Shal paye for al that by the weye is spent."
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.835",
+      "syllables": 11,
+      "text": "Now draweth cut, er that we ferrer twinne;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.836",
+      "syllables": 11,
+      "text": "He which that hath the shortest shal biginne."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.837",
+      "syllables": 11,
+      "text": "Sire knight,' quod he, 'my maister and my lord,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.838",
+      "syllables": 10,
+      "text": "Now draweth cut, for that is myn acord."
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.839",
+      "syllables": 12,
+      "text": "Cometh neer,' quod he, 'my lady prioresse;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.840",
+      "syllables": 11,
+      "text": "And ye, sir clerk, lat be your shamfastnesse,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "11 syllables but the last word has no unstressed schwa ending"
+      ],
+      "ref": "GP.841",
+      "syllables": 11,
+      "text": "Ne studieth noght; ley hond to, every man.'"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.842",
+      "syllables": 10,
+      "text": "Anon to drawen every wight bigan,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.843",
+      "syllables": 10,
+      "text": "And shortly for to tellen, as it was,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.844",
+      "syllables": 10,
+      "text": "Were it by aventure, or sort, or cas,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.845",
+      "syllables": 10,
+      "text": "The sothe is this, the cut fil to the knight,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.846",
+      "syllables": 10,
+      "text": "Of which ful blythe and glad was every wight;"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.847",
+      "syllables": 10,
+      "text": "And telle he moste his tale, as was resoun,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.848",
+      "syllables": 10,
+      "text": "By forward and by composicioun,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.849",
+      "syllables": 10,
+      "text": "As ye han herd; what nedeth wordes mo?"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.850",
+      "syllables": 10,
+      "text": "And whan this gode man saugh it was so,"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.851",
+      "syllables": 10,
+      "text": "As he that wys was and obedient"
+    },
+    {
+      "kind": "masculine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.852",
+      "syllables": 10,
+      "text": "To kepe his forward by his free assent,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.853",
+      "syllables": 12,
+      "text": "He seyde: 'Sin I shal biginne the game,"
+    },
+    {
+      "kind": null,
+      "ok": false,
+      "reasons": [
+        "12 syllables; pentameter needs 10 or feminine 11"
+      ],
+      "ref": "GP.854",
+      "syllables": 12,
+      "text": "What, welcome be the cut, a Goddes name!"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.855",
+      "syllables": 11,
+      "text": "Now lat us ryde, and herkneth what I seye.'"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.856",
+      "syllables": 11,
+      "text": "And with that word we riden forth our weye;"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.857",
+      "syllables": 11,
+      "text": "And he bigan with right a mery chere"
+    },
+    {
+      "kind": "feminine",
+      "ok": true,
+      "reasons": [],
+      "ref": "GP.858",
+      "syllables": 11,
+      "text": "His tale anon, and seyde in this manere."
+    }
+  ],
+  "schema": "hand-script.corpus-report/1",
+  "source": {
+    "file": "chaucer_gp_skeat.txt",
+    "sha256": "9003d7e77eaad561fdfa5e0d5770ee4235e5bcf4c17ffefa7edc5c48cbcd27ac"
+  },
+  "summary": {
+    "failed": 229,
+    "pass_rate": 0.7337,
+    "passed": 631,
+    "total": 860
+  }
+}

@@ -35,6 +35,22 @@
     {"id": "perplexity-950fc2e4", "platform": "perplexity", "topic": "Chaucer", "date": "2025-11-28"},
     {"id": "perplexity-a7afcc04", "platform": "perplexity", "topic": "Chaucer", "date": "2025-11-28"}
   ],
+  "corpora": [
+    {
+      "id": "chaucer-gp-skeat",
+      "file": "corpus/chaucer_gp_skeat.txt",
+      "report": "corpus/chaucer_gp_skeat.report.json",
+      "work": "Geoffrey Chaucer, The Canterbury Tales, Group A, The Prologue (General Prologue)",
+      "edition": "W. W. Skeat (ed.), The Complete Works of Geoffrey Chaucer, vol. 4, The Canterbury Tales: Text, 2nd ed., Oxford: Clarendon Press, 1900 (Project Gutenberg #22120)",
+      "rights": "public domain (Chaucer d. 1400; edition 1900)",
+      "url": "https://github.com/GITenberg/Chaucer-s-Works-Volume-4--of-7----The-Canterbury-Tales_22120",
+      "upstream_file": "22120-8.txt",
+      "upstream_sha256": "2506000b31a78ae72dd9d1dd755fb3f305c42516b293960c222ad78509fc00db",
+      "upstream_commit": "1e7f4c2ef672531d0676159202f2f9e2520e174c",
+      "retrieved": "2026-11-14",
+      "extraction": "scripts/extract_skeat_gp.py"
+    }
+  ],
   "observed_preview_artifacts": [
     "chaucer-canterbury-app (site preview image)",
     "hand-script-project-status.md (preview image)"
@@ -43,7 +59,7 @@
     {"name": "phonological transcriber", "module": "hand_script.middle_english.phonology", "status": "implemented"},
     {"name": "final -e scansion validator", "module": "hand_script.middle_english.scansion", "status": "implemented"},
     {"name": "project manifest", "module": "hand_script.manifest", "status": "implemented"},
-    {"name": "Middle English corpus ingest", "module": null, "status": "not started"},
+    {"name": "Middle English corpus ingest", "module": "hand_script.corpus", "status": "implemented"},
     {"name": "generation pipeline", "module": null, "status": "not started"}
   ]
 }
