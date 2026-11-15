@@ -21,11 +21,10 @@ syncope or an unusual inflection must carry a lexicon entry (see ``lexicon``).
 
 from __future__ import annotations
 
-import re
 from dataclasses import dataclass
 
 from .lexicon import Lexicon, merge
-from .phonology import WordPhonology, analyze, normalize, tokenize
+from .phonology import WORD_RE, WordPhonology, analyze, normalize, tokenize
 
 # Words in which an initial h elides (weak h): pronouns and auxiliaries.
 WEAK_H_WORDS = frozenset(
@@ -37,7 +36,7 @@ SILENT_H_WORDS = frozenset(
     {"honour", "honur", "honest", "honeste", "hostiler", "hostelrye", "hour", "houre", "heir"}
 )
 
-_WORD = re.compile(r"[A-Za-zþðȝæÞÐȜÆ]+")
+_WORD = WORD_RE
 
 PRONOUNCED = "pronounced"
 ELIDED_VOWEL = "elided_vowel"

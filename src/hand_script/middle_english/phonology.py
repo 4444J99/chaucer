@@ -16,6 +16,7 @@ reconstruction aid, not a claim about any single manuscript.
 from __future__ import annotations
 
 import re
+import unicodedata
 from dataclasses import dataclass, field
 
 from .lexicon import LexEntry, Lexicon, merge
@@ -109,10 +110,14 @@ ROMANCE_ENDING = re.compile(r"(ure|age|ye|ie|ee|ou|our|oun|ioun|tu|ice|ise)(s)?$
 FRONT_VOWELS = frozenset({"e", "i", "y", "ei", "ey", "ee", "ea"})
 
 _LETTERS = re.compile(r"[^a-z]")
+# Word tokenizer shared with scansion; diaeresis letters belong to the word.
+WORD_RE = re.compile(r"[A-Za-zþðȝæÞÐȜÆëïöüäÿËÏÖÜÄŸ]+")
 
 
 def normalize(word: str) -> str:
     """Lower-case and fold medieval letters to the Riverside-style Latin spelling."""
+    # Diaeresis letters (ë, ï, ...) mark a pronounced vowel; fold them to the base letter.
+    word = "".join(c for c in unicodedata.normalize("NFD", word) if not unicodedata.combining(c))
     w = word.lower().replace("þ", "th").replace("ð", "th").replace("æ", "ae")
     if w.startswith("ȝ"):
         w = "y" + w[1:]
@@ -383,6 +388,6 @@ def transcribe(word: str, lexicon: Lexicon | None = None) -> str:
 def transcribe_text(text: str, lexicon: Lexicon | None = None) -> list[tuple[str, str]]:
     """Transcribe every word of ``text``; returns ``(spelling, ipa)`` pairs."""
     pairs = []
-    for raw in re.findall(r"[A-Za-zþðȝæÞÐȜÆ]+", text):
+    for raw in WORD_RE.findall(text):
         pairs.append((raw, transcribe(raw, lexicon)))
     return pairs
