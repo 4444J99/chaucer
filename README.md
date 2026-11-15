@@ -20,6 +20,7 @@ curriculum and moved to Middle English on 2026-11-10; only the Middle English ha
 | Source-thread manifest | `chaucer.manifest`, `src/chaucer/data/project_manifest.json` | implemented |
 | Corpus ingestion (validator over a verse file, JSON report) | `chaucer.corpus` | implemented |
 | Corpus report as HTML (verdicts and final -e marked per word) | `chaucer.render` | implemented |
+| Printable handwriting-practice sheet (ruled rows, tracing model) | `chaucer.practice` | implemented |
 | Generation pipeline | | not started |
 
 ### Transcriber
@@ -55,6 +56,7 @@ chaucer manifest --check
 chaucer ingest-corpus corpus/chaucer_gp_skeat.txt -o corpus/chaucer_gp_skeat.report.json
 chaucer triage-corpus corpus/chaucer_gp_skeat.txt -o corpus/chaucer_gp_skeat.triage.json
 chaucer render-report corpus/chaucer_gp_skeat.report.json -o corpus/chaucer_gp_skeat.report.html
+chaucer practice-sheet corpus/chaucer_gp_skeat.txt --start GP.1 --count 12 -o corpus/chaucer_gp_skeat.practice.html
 chaucer check-fixtures tests/fixtures/gp_opening.json   # add lines, get pass/fail
 pytest && ruff check . && ruff format --check .
 ```
@@ -98,6 +100,20 @@ verdicts; each line is re-scanned only for the per-word -e behaviour and must re
 report's syllable count, so a report made with `--lexicon` needs the same `--lexicon` here.
 `corpus/chaucer_gp_skeat.report.html` is the page for the committed report (open it in a browser;
 the pass/fail filter is CSS only); a test checks it equals a fresh render.
+
+### Practice sheet
+
+`practice-sheet FILE [--start REF] [--count N] [--per-page N]` writes one self-contained,
+deterministic HTML page for handwriting practice. Each chosen line (consecutive rows from
+`--start`, default the first) gets a block: reference, syllable count and scansion verdict, the
+line in print with each final -e marked as in the report page, its syllabified IPA, then three
+ruled rows (ascender, x-height, baseline, descender guides): the line as a faint tracing model,
+then two empty rows to copy into. Three blocks to a page by default, laid out for A4 and forced
+to white paper in print. The tracing script is a system-cursive stand-in, not a manuscript hand
+(anglicana or secretary), and the sheet makes no claim to teach one; the exact face depends on
+the machine that opens it. `corpus/chaucer_gp_skeat.practice.html` is the sheet for GP.1-GP.12;
+a test checks it equals a fresh render. An unknown `--start`, a range running past the end, or
+a non-positive count exits 2.
 
 ### Corpus pass rate and triage
 

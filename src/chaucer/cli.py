@@ -1,4 +1,4 @@
-"""Command line: transcribe, scan, ingest-corpus, triage-corpus, render-report and manifest."""
+"""Command line: transcribe, scan, corpus ingest/triage/render, practice-sheet and manifest."""
 
 from __future__ import annotations
 
@@ -9,6 +9,7 @@ from pathlib import Path
 
 from . import corpus as corpus_mod
 from . import manifest as manifest_mod
+from . import practice as practice_mod
 from . import render as render_mod
 from . import triage as triage_mod
 from .middle_english import entries_from_json, scan_line, transcribe_text, validate
@@ -138,6 +139,24 @@ def _cmd_render_report(args: argparse.Namespace) -> int:
     return 0
 
 
+def _cmd_practice_sheet(args: argparse.Namespace) -> int:
+    path = Path(args.path)
+    try:
+        lines = corpus_mod.parse_corpus(path.read_bytes(), path.stem)
+        chosen = practice_mod.select_lines(lines, args.start, args.count)
+        page = practice_mod.render_sheet(
+            chosen, path.name, _load_lexicon(args.lexicon), args.per_page
+        )
+        if args.output:
+            Path(args.output).write_text(page, "utf-8")
+    except (OSError, ValueError) as exc:  # CorpusError and RenderError are ValueErrors
+        print(f"practice-sheet: {type(exc).__name__}: {exc}", file=sys.stderr)
+        return 2
+    if not args.output:
+        sys.stdout.write(page)
+    return 0
+
+
 def _cmd_manifest(args: argparse.Namespace) -> int:
     try:
         manifest = manifest_mod.load(Path(args.path) if args.path else None)
@@ -202,6 +221,23 @@ def build_parser() -> argparse.ArgumentParser:
     r.add_argument("--output", "-o", help="write the page here instead of stdout")
     r.add_argument("--lexicon", help="the lexicon the report was made with, if any")
     r.set_defaults(func=_cmd_render_report)
+
+    p = sub.add_parser(
+        "practice-sheet",
+        help="printable handwriting-practice sheet (ruled rows, tracing model) for verse lines",
+    )
+    p.add_argument("path", help="corpus file (ref<TAB>text rows)")
+    p.add_argument("--start", help="reference of the first line (default: the first line)")
+    p.add_argument("--count", type=int, default=12, help="number of lines (default 12)")
+    p.add_argument(
+        "--per-page",
+        type=int,
+        default=practice_mod.DEFAULT_LINES_PER_PAGE,
+        help="lines per printed page (default 3)",
+    )
+    p.add_argument("--output", "-o", help="write the page here instead of stdout")
+    p.add_argument("--lexicon", help="JSON file of extra lexicon entries")
+    p.set_defaults(func=_cmd_practice_sheet)
 
     m = sub.add_parser("manifest", help="print or validate the source-thread manifest")
     m.add_argument("--path", help="manifest file (default: the packaged manifest)")

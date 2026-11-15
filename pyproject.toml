@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "chaucer"
 version = "0.1.0"
-description = "Handwriting practice, etymology and Middle English tooling: phonological transcriber, final -e scansion validator and source-thread manifest."
+description = "Chaucer: Middle English transcription, final -e scansion and corpus tooling for the Canterbury Tales"
 readme = "README.md"
 requires-python = ">=3.11"
 # LICENSE is an owner decision (see README). Until the owner chooses, no
