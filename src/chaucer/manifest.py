@@ -159,9 +159,7 @@ def validate(data: dict[str, Any]) -> Manifest:
 def load(path: Path | None = None) -> Manifest:
     """Load and validate a manifest (the packaged one by default)."""
     if path is None:
-        text = (
-            resources.files("chaucer").joinpath("data/project_manifest.json").read_text("utf-8")
-        )
+        text = resources.files("chaucer").joinpath("data/project_manifest.json").read_text("utf-8")
     else:
         text = Path(path).read_text("utf-8")
     return validate(json.loads(text))
