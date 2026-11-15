@@ -206,3 +206,62 @@ def test_thread_without_ingest_record_is_rejected():
     del data["threads"][0]["ingest"]
     with pytest.raises(manifest.ManifestError, match="ingest"):
         manifest.validate(data)
+
+
+def _fresh() -> dict:
+    return json.loads(json.dumps(manifest.load().data))
+
+
+@pytest.mark.parametrize(
+    ("mutate", "message"),
+    [
+        (lambda d: d["corpora"][0].pop("result"), "result is required"),
+        (lambda d: d["corpora"][0]["result"].update(passed=1), "passed \\+ failed"),
+        (lambda d: d["corpora"][0]["result"].pop("pass_rate"), "pass_rate"),
+        (lambda d: d["corpora"][0]["result"].update(pass_rate=0.5), "disagrees"),
+        (lambda d: d["corpora"][0]["result"].update(total=True), "non-negative integer"),
+        (lambda d: d["threads"].__setitem__(0, "x"), "must be an object"),
+        (lambda d: d["threads"][0]["ingest"].update(lines=False), "non-negative integer"),
+        (lambda d: d["threads"][0]["ingest"].update(lines=-3), "non-negative integer"),
+        (lambda d: d["threads"][0]["ingest"].pop("lines"), "non-negative integer"),
+        (lambda d: d["threads"][0]["ingest"].update(corpus_id="x"), "cannot name a corpus_id"),
+        (lambda d: d["threads"][0]["ingest"].update(reason=""), "reason"),
+        (
+            lambda d: d["threads"][0]["ingest"].update(lines=5, corpus_id=[1], pass_rate=0.5),
+            "names no corpus",
+        ),
+        (
+            lambda d: d["threads"][0]["ingest"].update(
+                lines=5, corpus_id=d["corpora"][0]["id"], pass_rate=7
+            ),
+            "pass_rate must be",
+        ),
+        (
+            lambda d: d["threads"][0]["ingest"].update(
+                lines=5, corpus_id=d["corpora"][0]["id"], pass_rate=None
+            ),
+            "pass_rate must be",
+        ),
+        (
+            lambda d: d["threads"][0]["ingest"].update(
+                lines=9999, corpus_id=d["corpora"][0]["id"], pass_rate=0.5
+            ),
+            "exceeds the corpus total",
+        ),
+    ],
+)
+def test_manifest_rejects_malformed_result_and_ingest(mutate, message):
+    data = _fresh()
+    mutate(data)
+    with pytest.raises(manifest.ManifestError, match=message):
+        manifest.validate(data)
+
+
+def test_manifest_accepts_a_real_corpus_attribution():
+    data = _fresh()
+    data["threads"][0]["ingest"] = {
+        "lines": 10,
+        "corpus_id": data["corpora"][0]["id"],
+        "pass_rate": 0.7,
+    }
+    manifest.validate(data)
