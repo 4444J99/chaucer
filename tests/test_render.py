@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 
 import pytest
@@ -114,8 +115,9 @@ def test_histogram_counts_match_the_report():
     page = render.render_report(report)
     for n in {r["syllables"] for r in report["lines"]}:
         count = sum(1 for r in report["lines"] if r["syllables"] == n)
-        assert f'<span class="n">{n}</span>' in page
-        assert f'<span class="c">{count}</span>' in page
+        row = re.search(rf'<div class="hrow[^"]*"><span class="n">{n}</span>(.*?)</div>', page)
+        assert row is not None
+        assert f'<span class="c">{count}</span>' in row.group(1)
 
 
 def test_filter_markup_pairs_radios_with_line_states():
@@ -186,10 +188,18 @@ def test_cli_prints_to_stdout_without_output(capsys):
 def test_cli_reports_an_unwritable_output_and_odd_reports(tmp_path, capsys):
     assert main(["render-report", str(REPORT), "-o", str(tmp_path / "no" / "x.html")]) == 2
     odd = tmp_path / "odd.json"
-    for body in ("[1, 2]", "null", '{"schema": "hand-script.corpus-report/1", "lines": []}'):
+    empty = {
+        "schema": "hand-script.corpus-report/1",
+        "source": {"file": "x", "sha256": "0"},
+        "summary": {"total": 0, "passed": 0, "failed": 0, "pass_rate": 0.0},
+        "lines": [],
+    }
+    for body in ("[1, 2]", "null", json.dumps(empty)):
         odd.write_text(body, "utf-8")
         assert main(["render-report", str(odd)]) == 2
-    assert "Traceback" not in capsys.readouterr().err
+    err = capsys.readouterr().err
+    assert "Traceback" not in err
+    assert "report has no lines" in err
 
 
 def test_cli_reports_a_missing_file(tmp_path, capsys):
