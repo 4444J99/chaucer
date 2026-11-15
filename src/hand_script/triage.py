@@ -13,6 +13,7 @@ against the edition and the scholarship, never that the reading is right.
 
 from __future__ import annotations
 
+from dataclasses import replace
 from typing import Any
 
 from .corpus import CorpusLine, parse_corpus
@@ -30,13 +31,14 @@ def _passing(lines: list[CorpusLine], lexicon: Lexicon) -> set[str]:
 
 def _variant_entry(word: str, base: Lexicon, variant: str) -> LexEntry | None:
     analysis = analyze(word, base)
+    existing = base.get(word, LexEntry())  # keep its ipa: it decides neighbour elision
     if variant == "no_final_e":
         if not analysis.final_e:
             return None
-        return LexEntry(core=analysis.core, final_e=False)
+        return replace(existing, core=analysis.core, final_e=False)
     if analysis.core < 2:  # a one-syllable core cannot lose a syllable and stay a word
         return None
-    return LexEntry(core=analysis.core - 1, final_e=analysis.final_e)
+    return replace(existing, core=analysis.core - 1, final_e=analysis.final_e)
 
 
 def triage(

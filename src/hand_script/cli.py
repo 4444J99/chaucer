@@ -100,6 +100,9 @@ def _cmd_ingest_corpus(args: argparse.Namespace) -> int:
 
 def _cmd_triage_corpus(args: argparse.Namespace) -> int:
     path = Path(args.path)
+    if args.top < 1:
+        print("triage-corpus: --top must be at least 1", file=sys.stderr)
+        return 2
     try:
         report = triage_mod.triage(
             path.read_bytes(), path.name, path.stem, _load_lexicon(args.lexicon), args.top

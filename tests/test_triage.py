@@ -81,3 +81,17 @@ def test_cli_reports_unreadable_and_empty_input(tmp_path, capsys):
     empty.write_text("# nothing\n", "utf-8")
     assert main(["triage-corpus", str(empty)]) == 2
     assert capsys.readouterr().err.count("triage-corpus:") == 2
+
+
+def test_variant_keeps_the_existing_entry_ipa():
+    from hand_script.middle_english.lexicon import DEFAULT_LEXICON
+
+    entry = triage._variant_entry("every", DEFAULT_LEXICON, "syncope")
+    assert entry is not None and entry.ipa == DEFAULT_LEXICON["every"].ipa
+
+
+def test_cli_rejects_non_positive_top(tmp_path, capsys):
+    src = tmp_path / "v.txt"
+    src.write_bytes(WERE_LINE)
+    assert main(["triage-corpus", str(src), "--top", "0"]) == 2
+    assert "--top" in capsys.readouterr().err

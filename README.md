@@ -49,7 +49,6 @@ hand-script manifest --check
 hand-script ingest-corpus corpus/chaucer_gp_skeat.txt -o corpus/chaucer_gp_skeat.report.json
 hand-script triage-corpus corpus/chaucer_gp_skeat.txt -o corpus/chaucer_gp_skeat.triage.json
 hand-script check-fixtures tests/fixtures/gp_opening.json   # add lines, get pass/fail
-hand-script ingest-corpus corpus/chaucer_gp_skeat.txt -o /tmp/report.json
 pytest && ruff check . && ruff format --check .
 ```
 
