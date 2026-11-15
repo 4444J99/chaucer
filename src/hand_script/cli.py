@@ -1,4 +1,4 @@
-"""Command line: transcribe, scan, ingest-corpus and manifest."""
+"""Command line: transcribe, scan, ingest-corpus, triage-corpus and manifest."""
 
 from __future__ import annotations
 
@@ -9,6 +9,7 @@ from pathlib import Path
 
 from . import corpus as corpus_mod
 from . import manifest as manifest_mod
+from . import triage as triage_mod
 from .middle_english import entries_from_json, scan_line, transcribe_text, validate
 
 
@@ -97,6 +98,31 @@ def _cmd_ingest_corpus(args: argparse.Namespace) -> int:
     return 0
 
 
+def _cmd_triage_corpus(args: argparse.Namespace) -> int:
+    path = Path(args.path)
+    if args.top < 1:
+        print("triage-corpus: --top must be at least 1", file=sys.stderr)
+        return 2
+    try:
+        report = triage_mod.triage(
+            path.read_bytes(), path.name, path.stem, _load_lexicon(args.lexicon), args.top
+        )
+    except (OSError, corpus_mod.CorpusError) as exc:
+        print(f"triage-corpus: {exc}", file=sys.stderr)
+        return 2
+    text = corpus_mod.dumps(report)
+    if args.output:
+        Path(args.output).write_text(text, "utf-8")
+    else:
+        sys.stdout.write(text)
+    base = report["baseline"]
+    print(
+        f"{base['failed']} failing lines; {report['candidates_considered']} candidates",
+        file=sys.stderr,
+    )
+    return 0
+
+
 def _cmd_manifest(args: argparse.Namespace) -> int:
     try:
         manifest = manifest_mod.load(Path(args.path) if args.path else None)
@@ -143,6 +169,16 @@ def build_parser() -> argparse.ArgumentParser:
         help="exit 1 if the pass rate (0-1) is lower; otherwise failures leave the exit code 0",
     )
     i.set_defaults(func=_cmd_ingest_corpus)
+
+    tr = sub.add_parser(
+        "triage-corpus",
+        help="rank lexicon changes (syncope, no final -e) by net corpus lines fixed",
+    )
+    tr.add_argument("path")
+    tr.add_argument("--output", "-o", help="write the triage here instead of stdout")
+    tr.add_argument("--lexicon", help="JSON file of extra lexicon entries")
+    tr.add_argument("--top", type=int, default=40, help="candidates to keep (default 40)")
+    tr.set_defaults(func=_cmd_triage_corpus)
 
     m = sub.add_parser("manifest", help="print or validate the source-thread manifest")
     m.add_argument("--path", help="manifest file (default: the packaged manifest)")

@@ -46,8 +46,9 @@ uv venv && uv pip install -e ".[dev]"
 hand-script scan "Whan that Aprille with his shoures soote"
 hand-script transcribe "nyght sweete"
 hand-script manifest --check
+hand-script ingest-corpus corpus/chaucer_gp_skeat.txt -o corpus/chaucer_gp_skeat.report.json
+hand-script triage-corpus corpus/chaucer_gp_skeat.txt -o corpus/chaucer_gp_skeat.triage.json
 hand-script check-fixtures tests/fixtures/gp_opening.json   # add lines, get pass/fail
-hand-script ingest-corpus corpus/chaucer_gp_skeat.txt -o /tmp/report.json
 pytest && ruff check . && ruff format --check .
 ```
 
@@ -79,6 +80,19 @@ The `.github/workflows/ci.yml` commands are run locally from a fresh clone. Loca
 
 - Python 3.11 and 3.13: `ruff check .` pass; `ruff format --check .` pass (14 files); `pytest` pass, 111 tests each
 - Python 3.12, the third matrix entry, is not installed on this machine and was not run
+
+### Corpus pass rate and triage
+
+`corpus/chaucer_gp_skeat.txt` is Skeat's General Prologue (860 lines). The committed report
+records the validator's verdict per line (631/860 pass, 73.37%) and the manifest carries the
+same totals; tests fail if either drifts. Source threads record `ingest` with 0 lines and a
+reason because their bodies are not locally recoverable, so there is no per-thread pass rate.
+
+`triage-corpus` asks, for each word in a failing line, how many corpus lines would flip if the
+lexicon dropped its final -e or one syllable (net of lines it would break). It ranks evidence for
+the next lexicon entries; the validator is the oracle, so a candidate still needs checking
+against the edition before it is added. The first candidate in the committed triage is `were`
+as one syllable (12 lines fixed, 0 broken).
 
 ## Owner decisions open
 

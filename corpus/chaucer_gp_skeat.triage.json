@@ -1,0 +1,518 @@
+{
+  "baseline": {
+    "failed": 229,
+    "passed": 631,
+    "total": 860
+  },
+  "candidates": [
+    {
+      "broken": 0,
+      "fixed": 12,
+      "fixed_refs": [
+        "GP.145",
+        "GP.18",
+        "GP.257",
+        "GP.26",
+        "GP.544"
+      ],
+      "gain": 12,
+      "in_failing_lines": 20,
+      "variant": "no_final_e",
+      "word": "were"
+    },
+    {
+      "broken": 2,
+      "fixed": 8,
+      "fixed_refs": [
+        "GP.168",
+        "GP.229",
+        "GP.349",
+        "GP.350",
+        "GP.396"
+      ],
+      "gain": 6,
+      "in_failing_lines": 9,
+      "variant": "syncope",
+      "word": "many"
+    },
+    {
+      "broken": 0,
+      "fixed": 5,
+      "fixed_refs": [
+        "GP.335",
+        "GP.50",
+        "GP.588",
+        "GP.622",
+        "GP.732"
+      ],
+      "gain": 5,
+      "in_failing_lines": 5,
+      "variant": "syncope",
+      "word": "ever"
+    },
+    {
+      "broken": 0,
+      "fixed": 4,
+      "fixed_refs": [
+        "GP.206",
+        "GP.334",
+        "GP.533",
+        "GP.634"
+      ],
+      "gain": 4,
+      "in_failing_lines": 4,
+      "variant": "syncope",
+      "word": "loved"
+    },
+    {
+      "broken": 0,
+      "fixed": 3,
+      "fixed_refs": [
+        "GP.761",
+        "GP.788",
+        "GP.828"
+      ],
+      "gain": 3,
+      "in_failing_lines": 3,
+      "variant": "syncope",
+      "word": "lordinges"
+    },
+    {
+      "broken": 0,
+      "fixed": 3,
+      "fixed_refs": [
+        "GP.544",
+        "GP.567",
+        "GP.586"
+      ],
+      "gain": 3,
+      "in_failing_lines": 3,
+      "variant": "syncope",
+      "word": "maunciple"
+    },
+    {
+      "broken": 0,
+      "fixed": 3,
+      "fixed_refs": [
+        "GP.216",
+        "GP.249",
+        "GP.547"
+      ],
+      "gain": 3,
+      "in_failing_lines": 3,
+      "variant": "syncope",
+      "word": "over"
+    },
+    {
+      "broken": 0,
+      "fixed": 3,
+      "fixed_refs": [
+        "GP.449",
+        "GP.491",
+        "GP.494"
+      ],
+      "gain": 3,
+      "in_failing_lines": 3,
+      "variant": "syncope",
+      "word": "parisshe"
+    },
+    {
+      "broken": 0,
+      "fixed": 3,
+      "fixed_refs": [
+        "GP.184",
+        "GP.303",
+        "GP.438"
+      ],
+      "gain": 3,
+      "in_failing_lines": 3,
+      "variant": "syncope",
+      "word": "studie"
+    },
+    {
+      "broken": 4,
+      "fixed": 6,
+      "fixed_refs": [
+        "GP.399",
+        "GP.464",
+        "GP.465",
+        "GP.52",
+        "GP.637"
+      ],
+      "gain": 2,
+      "in_failing_lines": 26,
+      "variant": "no_final_e",
+      "word": "hadde"
+    },
+    {
+      "broken": 1,
+      "fixed": 3,
+      "fixed_refs": [
+        "GP.245",
+        "GP.35",
+        "GP.654"
+      ],
+      "gain": 2,
+      "in_failing_lines": 5,
+      "variant": "no_final_e",
+      "word": "have"
+    },
+    {
+      "broken": 0,
+      "fixed": 2,
+      "fixed_refs": [
+        "GP.450",
+        "GP.648"
+      ],
+      "gain": 2,
+      "in_failing_lines": 5,
+      "variant": "no_final_e",
+      "word": "sholde"
+    },
+    {
+      "broken": 0,
+      "fixed": 2,
+      "fixed_refs": [
+        "GP.258",
+        "GP.672"
+      ],
+      "gain": 2,
+      "in_failing_lines": 4,
+      "variant": "no_final_e",
+      "word": "love"
+    },
+    {
+      "broken": 1,
+      "fixed": 3,
+      "fixed_refs": [
+        "GP.761",
+        "GP.828",
+        "GP.853"
+      ],
+      "gain": 2,
+      "in_failing_lines": 4,
+      "variant": "no_final_e",
+      "word": "seyde"
+    },
+    {
+      "broken": 0,
+      "fixed": 2,
+      "fixed_refs": [
+        "GP.471",
+        "GP.558"
+      ],
+      "gain": 2,
+      "in_failing_lines": 3,
+      "variant": "syncope",
+      "word": "bokeler"
+    },
+    {
+      "broken": 1,
+      "fixed": 3,
+      "fixed_refs": [
+        "GP.16",
+        "GP.22",
+        "GP.801"
+      ],
+      "gain": 2,
+      "in_failing_lines": 3,
+      "variant": "syncope",
+      "word": "caunterbury"
+    },
+    {
+      "broken": 0,
+      "fixed": 2,
+      "fixed_refs": [
+        "GP.687",
+        "GP.77"
+      ],
+      "gain": 2,
+      "in_failing_lines": 3,
+      "variant": "no_final_e",
+      "word": "come"
+    },
+    {
+      "broken": 1,
+      "fixed": 3,
+      "fixed_refs": [
+        "GP.241",
+        "GP.419",
+        "GP.733"
+      ],
+      "gain": 2,
+      "in_failing_lines": 3,
+      "variant": "syncope",
+      "word": "everich"
+    },
+    {
+      "broken": 0,
+      "fixed": 2,
+      "fixed_refs": [
+        "GP.444",
+        "GP.97"
+      ],
+      "gain": 2,
+      "in_failing_lines": 3,
+      "variant": "no_final_e",
+      "word": "lovede"
+    },
+    {
+      "broken": 0,
+      "fixed": 2,
+      "fixed_refs": [
+        "GP.444",
+        "GP.97"
+      ],
+      "gain": 2,
+      "in_failing_lines": 3,
+      "variant": "syncope",
+      "word": "lovede"
+    },
+    {
+      "broken": 0,
+      "fixed": 2,
+      "fixed_refs": [
+        "GP.567",
+        "GP.586"
+      ],
+      "gain": 2,
+      "in_failing_lines": 3,
+      "variant": "no_final_e",
+      "word": "maunciple"
+    },
+    {
+      "broken": 0,
+      "fixed": 2,
+      "fixed_refs": [
+        "GP.449",
+        "GP.494"
+      ],
+      "gain": 2,
+      "in_failing_lines": 3,
+      "variant": "no_final_e",
+      "word": "parisshe"
+    },
+    {
+      "broken": 1,
+      "fixed": 3,
+      "fixed_refs": [
+        "GP.123",
+        "GP.136",
+        "GP.751"
+      ],
+      "gain": 2,
+      "in_failing_lines": 3,
+      "variant": "syncope",
+      "word": "semely"
+    },
+    {
+      "broken": 0,
+      "fixed": 2,
+      "fixed_refs": [
+        "GP.303",
+        "GP.438"
+      ],
+      "gain": 2,
+      "in_failing_lines": 3,
+      "variant": "no_final_e",
+      "word": "studie"
+    },
+    {
+      "broken": 0,
+      "fixed": 2,
+      "fixed_refs": [
+        "GP.223",
+        "GP.232"
+      ],
+      "gain": 2,
+      "in_failing_lines": 3,
+      "variant": "no_final_e",
+      "word": "yeve"
+    },
+    {
+      "broken": 0,
+      "fixed": 2,
+      "fixed_refs": [
+        "GP.341",
+        "GP.667"
+      ],
+      "gain": 2,
+      "in_failing_lines": 2,
+      "variant": "no_final_e",
+      "word": "ale"
+    },
+    {
+      "broken": 0,
+      "fixed": 2,
+      "fixed_refs": [
+        "GP.428",
+        "GP.853"
+      ],
+      "gain": 2,
+      "in_failing_lines": 2,
+      "variant": "syncope",
+      "word": "biginne"
+    },
+    {
+      "broken": 0,
+      "fixed": 2,
+      "fixed_refs": [
+        "GP.216",
+        "GP.340"
+      ],
+      "gain": 2,
+      "in_failing_lines": 2,
+      "variant": "syncope",
+      "word": "contree"
+    },
+    {
+      "broken": 0,
+      "fixed": 2,
+      "fixed_refs": [
+        "GP.481",
+        "GP.537"
+      ],
+      "gain": 2,
+      "in_failing_lines": 2,
+      "variant": "syncope",
+      "word": "cristes"
+    },
+    {
+      "broken": 0,
+      "fixed": 2,
+      "fixed_refs": [
+        "GP.31",
+        "GP.747"
+      ],
+      "gain": 2,
+      "in_failing_lines": 2,
+      "variant": "syncope",
+      "word": "everichon"
+    },
+    {
+      "broken": 0,
+      "fixed": 2,
+      "fixed_refs": [
+        "GP.648",
+        "GP.650"
+      ],
+      "gain": 2,
+      "in_failing_lines": 2,
+      "variant": "no_final_e",
+      "word": "felawe"
+    },
+    {
+      "broken": 0,
+      "fixed": 2,
+      "fixed_refs": [
+        "GP.648",
+        "GP.650"
+      ],
+      "gain": 2,
+      "in_failing_lines": 2,
+      "variant": "syncope",
+      "word": "felawe"
+    },
+    {
+      "broken": 0,
+      "fixed": 2,
+      "fixed_refs": [
+        "GP.788",
+        "GP.828"
+      ],
+      "gain": 2,
+      "in_failing_lines": 2,
+      "variant": "syncope",
+      "word": "herkneth"
+    },
+    {
+      "broken": 0,
+      "fixed": 2,
+      "fixed_refs": [
+        "GP.616",
+        "GP.719"
+      ],
+      "gain": 2,
+      "in_failing_lines": 2,
+      "variant": "no_final_e",
+      "word": "highte"
+    },
+    {
+      "broken": 0,
+      "fixed": 2,
+      "fixed_refs": [
+        "GP.123",
+        "GP.152"
+      ],
+      "gain": 2,
+      "in_failing_lines": 2,
+      "variant": "no_final_e",
+      "word": "nose"
+    },
+    {
+      "broken": 0,
+      "fixed": 2,
+      "fixed_refs": [
+        "GP.759",
+        "GP.794"
+      ],
+      "gain": 2,
+      "in_failing_lines": 2,
+      "variant": "no_final_e",
+      "word": "othere"
+    },
+    {
+      "broken": 0,
+      "fixed": 2,
+      "fixed_refs": [
+        "GP.759",
+        "GP.794"
+      ],
+      "gain": 2,
+      "in_failing_lines": 2,
+      "variant": "syncope",
+      "word": "othere"
+    },
+    {
+      "broken": 0,
+      "fixed": 2,
+      "fixed_refs": [
+        "GP.354",
+        "GP.425"
+      ],
+      "gain": 2,
+      "in_failing_lines": 2,
+      "variant": "syncope",
+      "word": "redy"
+    },
+    {
+      "broken": 0,
+      "fixed": 2,
+      "fixed_refs": [
+        "GP.102",
+        "GP.774"
+      ],
+      "gain": 2,
+      "in_failing_lines": 2,
+      "variant": "no_final_e",
+      "word": "ryde"
+    },
+    {
+      "broken": 0,
+      "fixed": 2,
+      "fixed_refs": [
+        "GP.193",
+        "GP.93"
+      ],
+      "gain": 2,
+      "in_failing_lines": 2,
+      "variant": "syncope",
+      "word": "sleves"
+    }
+  ],
+  "candidates_considered": 586,
+  "schema": "hand-script.triage/1",
+  "source": {
+    "file": "chaucer_gp_skeat.txt"
+  }
+}
