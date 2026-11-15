@@ -31,3 +31,10 @@ def test_diaeresis_word_uses_its_lexicon_entry():
     scan = scan_line("That slepen al the night with open yë")
     last = scan.words[-1]
     assert (last.word, last.ipa, last.syllables) == ("yë", "jeː", 1)
+
+
+def test_transcribe_text_keeps_diaeresis_words_whole():
+    from hand_script.middle_english.phonology import transcribe_text
+
+    pairs = transcribe_text("yë sëynt treës")
+    assert [spelling for spelling, _ in pairs] == ["yë", "sëynt", "treës"]
