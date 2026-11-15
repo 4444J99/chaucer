@@ -110,6 +110,8 @@ ROMANCE_ENDING = re.compile(r"(ure|age|ye|ie|ee|ou|our|oun|ioun|tu|ice|ise)(s)?$
 FRONT_VOWELS = frozenset({"e", "i", "y", "ei", "ey", "ee", "ea"})
 
 _LETTERS = re.compile(r"[^a-z]")
+# Word tokenizer shared with scansion; diaeresis letters belong to the word.
+WORD_RE = re.compile(r"[A-Za-zþðȝæÞÐȜÆëïöüäÿËÏÖÜÄŸ]+")
 
 
 def normalize(word: str) -> str:
@@ -386,6 +388,6 @@ def transcribe(word: str, lexicon: Lexicon | None = None) -> str:
 def transcribe_text(text: str, lexicon: Lexicon | None = None) -> list[tuple[str, str]]:
     """Transcribe every word of ``text``; returns ``(spelling, ipa)`` pairs."""
     pairs = []
-    for raw in re.findall(r"[A-Za-zþðȝæÞÐȜÆ]+", text):
+    for raw in WORD_RE.findall(text):
         pairs.append((raw, transcribe(raw, lexicon)))
     return pairs
