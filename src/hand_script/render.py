@@ -193,11 +193,18 @@ def _line_row(row: dict[str, Any], lexicon: Lexicon | None) -> str:
 
 def render_report(report: dict[str, Any], lexicon: Lexicon | None = None) -> str:
     """Return the HTML page for a corpus report mapping."""
-    if report.get("schema") != SCHEMA:
-        raise RenderError(f"unsupported report schema {report.get('schema')!r}")
+    if not isinstance(report, dict) or report.get("schema") != SCHEMA:
+        schema = report.get("schema") if isinstance(report, dict) else type(report).__name__
+        raise RenderError(f"unsupported report schema {schema!r}")
     rows = report["lines"]
     summary = report["summary"]
     source = report["source"]
+    if not isinstance(rows, list) or not rows:
+        raise RenderError("report has no lines")
+    passed = sum(1 for r in rows if r["ok"])
+    expected = {"total": len(rows), "passed": passed, "failed": len(rows) - passed}
+    if {k: summary.get(k) for k in expected} != expected:
+        raise RenderError(f"report summary {summary!r} does not match its lines {expected!r}")
     kinds = Counter(r["kind"] for r in rows if r["ok"])
     percent = f"{100 * summary['passed'] / summary['total']:.2f}"
     title = f"Scansion report: {source['file']}"

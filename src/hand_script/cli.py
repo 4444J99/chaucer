@@ -128,12 +128,12 @@ def _cmd_render_report(args: argparse.Namespace) -> int:
     try:
         report = json.loads(Path(args.path).read_text("utf-8"))
         page = render_mod.render_report(report, _load_lexicon(args.lexicon))
-    except (OSError, ValueError, KeyError, TypeError) as exc:  # RenderError is a ValueError
+        if args.output:
+            Path(args.output).write_text(page, "utf-8")
+    except (OSError, ValueError, KeyError, TypeError, AttributeError) as exc:
         print(f"render-report: {type(exc).__name__}: {exc}", file=sys.stderr)
         return 2
-    if args.output:
-        Path(args.output).write_text(page, "utf-8")
-    else:
+    if not args.output:
         sys.stdout.write(page)
     return 0
 

@@ -72,6 +72,79 @@ def test_report_with_wrong_schema_is_rejected():
         render.render_report({"schema": "nope"})
 
 
+@pytest.mark.parametrize("bad", [[1, 2], None, "text"])
+def test_non_object_report_is_rejected(bad):
+    with pytest.raises(render.RenderError, match="schema"):
+        render.render_report(bad)
+
+
+def test_empty_report_is_rejected():
+    report = json.loads(REPORT.read_text("utf-8"))
+    report["lines"] = []
+    report["summary"] = {"total": 0, "passed": 0, "failed": 0, "pass_rate": 0.0}
+    with pytest.raises(render.RenderError, match="no lines"):
+        render.render_report(report)
+
+
+def test_summary_that_contradicts_the_lines_is_rejected():
+    report = json.loads(REPORT.read_text("utf-8"))
+    report["summary"]["passed"] += 1
+    with pytest.raises(render.RenderError, match="does not match"):
+        render.render_report(report)
+
+
+def _mini_report(rows):
+    data = "\n".join(f"{ref}\t{text}" for ref, text in rows).encode("utf-8")
+    return corpus.ingest(data, "mini.txt", "mini")
+
+
+def test_all_pass_and_all_fail_reports_render():
+    ok = render.render_report(_mini_report([("A.1", "Whan that Aprille with his shoures soote")]))
+    assert "100.00%" in ok
+    assert '<div class="line pass">' in ok
+    assert '<div class="line fail">' not in ok
+    bad = render.render_report(_mini_report([("A.1", "Short line")]))
+    assert "0.00%" in bad
+    assert '<div class="line fail">' in bad
+    assert "pentameter needs 10 or feminine 11" in bad
+
+
+def test_histogram_counts_match_the_report():
+    report = json.loads(REPORT.read_text("utf-8"))
+    page = render.render_report(report)
+    for n in {r["syllables"] for r in report["lines"]}:
+        count = sum(1 for r in report["lines"] if r["syllables"] == n)
+        assert f'<span class="n">{n}</span>' in page
+        assert f'<span class="c">{count}</span>' in page
+
+
+def test_filter_markup_pairs_radios_with_line_states():
+    page = render.render_report(json.loads(REPORT.read_text("utf-8")))
+    for radio in ("f-all", "f-pass", "f-fail"):
+        assert f'id="{radio}"' in page
+        assert f'for="{radio}"' in page
+    assert "#f-fail:checked ~ .lines .line.pass { display: none; }" in page
+
+
+def test_report_fields_other_than_text_are_escaped():
+    report = _mini_report([("A.1", "Whan that Aprille with his shoures soote")])
+    report["lines"][0]["ref"] = '<i>"x"</i>'
+    report["source"]["file"] = "<b>f</b>.txt"
+    report["lines"][0]["kind"] = "<u>k</u>"
+    page = render.render_report(report)
+    for tag in ("<i>", "<b>f", "<u>"):
+        assert tag not in page
+    assert "&lt;b&gt;f&lt;/b&gt;.txt" in page
+
+
+def test_lexicon_word_without_trailing_e_covers_sounded_and_elided():
+    lexicon = entries_from_json({"fooa": {"ipa": "ˈfoːa", "core": 1, "final_e": True}})
+    sounded = render.line_html("The fooa man", scan_line("The fooa man", lexicon))
+    assert '<span class="w-sounded" title="final -e counted">fooa</span> man' in sounded
+    elided = render.line_html("The fooa of", scan_line("The fooa of", lexicon))
+    assert '<span class="w-elided"' in elided
+
+
 def test_syllable_mismatch_with_report_is_an_error():
     report = json.loads(REPORT.read_text("utf-8"))
     report["lines"][0]["syllables"] += 1
@@ -99,7 +172,7 @@ def test_committed_report_is_still_current():
     assert REPORT.read_text("utf-8") == fresh
 
 
-def test_cli_writes_the_page(tmp_path, capsys):
+def test_cli_writes_the_page(tmp_path):
     out = tmp_path / "r.html"
     assert main(["render-report", str(REPORT), "-o", str(out)]) == 0
     assert out.read_text("utf-8") == PAGE.read_text("utf-8")
@@ -108,6 +181,15 @@ def test_cli_writes_the_page(tmp_path, capsys):
 def test_cli_prints_to_stdout_without_output(capsys):
     assert main(["render-report", str(REPORT)]) == 0
     assert capsys.readouterr().out == PAGE.read_text("utf-8")
+
+
+def test_cli_reports_an_unwritable_output_and_odd_reports(tmp_path, capsys):
+    assert main(["render-report", str(REPORT), "-o", str(tmp_path / "no" / "x.html")]) == 2
+    odd = tmp_path / "odd.json"
+    for body in ("[1, 2]", "null", '{"schema": "hand-script.corpus-report/1", "lines": []}'):
+        odd.write_text(body, "utf-8")
+        assert main(["render-report", str(odd)]) == 2
+    assert "Traceback" not in capsys.readouterr().err
 
 
 def test_cli_reports_a_missing_file(tmp_path, capsys):
