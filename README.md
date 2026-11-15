@@ -71,6 +71,15 @@ that the committed report equals a fresh run. Failing lines are data: the pass r
 validator's rules against Skeat's spelling, not the quality of the verse, and the validator was
 not tuned to this corpus.
 
+## Verification status
+
+Hosted `ci` runs on this repository die in about 3 seconds with zero steps (for example run 43604399103 on `c28b15e`): nothing executes, so a red hosted check means only that hosted checks cannot start. It is not a code result, and a dead check is not a pass.
+
+The `.github/workflows/ci.yml` commands are run locally from a fresh clone. Local-green record, base `c28b15ed1c76f3f783ba9409ee2e9a2c3379b632` (2026-11-14), each in a fresh venv with `pip install -e ".[dev]"` (ruff 0.17.5):
+
+- Python 3.11 and 3.13: `ruff check .` pass; `ruff format --check .` pass (14 files); `pytest` pass, 111 tests each
+- Python 3.12, the third matrix entry, is not installed on this machine and was not run
+
 ## Owner decisions open
 
 - **LICENSE**: not chosen. No license file is shipped and `pyproject.toml` declares
