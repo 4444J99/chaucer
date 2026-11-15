@@ -7,7 +7,7 @@ from pathlib import Path
 
 import pytest
 
-from hand_script.middle_english import entries_from_json, scan_line, validate
+from chaucer.middle_english import entries_from_json, scan_line, validate
 
 FIXTURE = json.loads((Path(__file__).parent / "fixtures" / "gp_opening.json").read_text("utf-8"))
 LINES = FIXTURE["lines"]

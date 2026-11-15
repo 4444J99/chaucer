@@ -4,8 +4,8 @@ from __future__ import annotations
 
 import pytest
 
-from hand_script.middle_english import scan_line, validate_line
-from hand_script.middle_english.scansion import (
+from chaucer.middle_english import scan_line, validate_line
+from chaucer.middle_english.scansion import (
     ABSENT,
     ELIDED_H,
     ELIDED_VOWEL,
@@ -91,7 +91,7 @@ def test_validator_rejects_wrong_lengths_and_masculine_eleven():
 
 def test_lexicon_pronunciation_drives_elision_trigger():
     """Review finding: a homograph override must also work as the *next* word."""
-    from hand_script.middle_english import LexEntry
+    from chaucer.middle_english import LexEntry
 
     eye = {"ye": LexEntry(ipa="ˈiː.ə", core=1, final_e=True)}
     assert begins_with_elidable("ye") is None  # spelling: y + vowel glide, consonant
@@ -113,7 +113,7 @@ def test_lexicon_pronunciation_drives_elision_trigger():
 
 def test_lexicon_ending_overrides_the_spelling_derived_schwa():
     """Review finding: removing the final schwa must remove the feminine ending."""
-    from hand_script.middle_english import LexEntry, analyze
+    from chaucer.middle_english import LexEntry, analyze
 
     stressed_end = {"melodye": LexEntry(ipa="mɛ.lɔ.ˈdiː", core=3, final_e=False)}
     assert analyze("melodye").ends_in_schwa

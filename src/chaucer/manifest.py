@@ -1,4 +1,4 @@
-"""Project manifest of the Perplexity source threads behind hand-script."""
+"""Project manifest of the Perplexity source threads behind chaucer."""
 
 from __future__ import annotations
 
@@ -10,7 +10,7 @@ from importlib import resources
 from pathlib import Path
 from typing import Any
 
-SCHEMA = "hand-script.manifest/1"
+SCHEMA = "chaucer.manifest/1"
 LINEAGE_ID = re.compile(r"^perplexity-[0-9a-f]{8}$")
 CORPUS_KEYS = ("id", "file", "work", "edition", "rights", "url", "retrieved")
 STATUSES = frozenset({"implemented", "not started"})
@@ -160,7 +160,7 @@ def load(path: Path | None = None) -> Manifest:
     """Load and validate a manifest (the packaged one by default)."""
     if path is None:
         text = (
-            resources.files("hand_script").joinpath("data/project_manifest.json").read_text("utf-8")
+            resources.files("chaucer").joinpath("data/project_manifest.json").read_text("utf-8")
         )
     else:
         text = Path(path).read_text("utf-8")

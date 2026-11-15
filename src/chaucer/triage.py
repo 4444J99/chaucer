@@ -21,7 +21,7 @@ from .middle_english.lexicon import LexEntry, Lexicon, merge
 from .middle_english.phonology import WORD_RE, analyze, normalize
 from .middle_english.scansion import validate_line
 
-SCHEMA = "hand-script.triage/1"
+SCHEMA = "chaucer.triage/1"
 VARIANTS = ("no_final_e", "syncope")
 
 

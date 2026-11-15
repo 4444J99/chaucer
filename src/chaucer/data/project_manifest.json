@@ -1,11 +1,11 @@
 {
-  "schema": "hand-script.manifest/1",
-  "project": "hand-script",
-  "description": "Source threads for the hand-script project: a handwriting-practice and linguistics curriculum Space (writing systems, etymological roots, 18 languages in nine families) that moved on 2026-11-10 toward a Middle English corpus and generation pipeline.",
+  "schema": "chaucer.manifest/1",
+  "project": "chaucer",
+  "description": "Source threads for the chaucer project: a handwriting-practice and linguistics curriculum Space (writing systems, etymological roots, 18 languages in nine families) that moved on 2026-11-10 toward a Middle English corpus and generation pipeline.",
   "provenance": {
     "repo": "4444J99/titan",
     "path": ".claude/plans/2026-11-14-owner-goals-r6.md",
-    "section": "3. hand-script and Middle English generation",
+    "section": "3. chaucer and Middle English generation",
     "retrieved": "2026-11-14",
     "note": "Thread titles and bodies are not recorded here: only the identifiers cited by the owner-goals file. The seeding thread's owner words are quoted in the goals file; the owner's typed November prompts are not locally recoverable."
   },
@@ -54,13 +54,13 @@
   ],
   "observed_preview_artifacts": [
     "chaucer-canterbury-app (site preview image)",
-    "hand-script-project-status.md (preview image)"
+    "chaucer-project-status.md (preview image)"
   ],
   "components": [
-    {"name": "phonological transcriber", "module": "hand_script.middle_english.phonology", "status": "implemented"},
-    {"name": "final -e scansion validator", "module": "hand_script.middle_english.scansion", "status": "implemented"},
-    {"name": "project manifest", "module": "hand_script.manifest", "status": "implemented"},
-    {"name": "Middle English corpus ingest", "module": "hand_script.corpus", "status": "implemented"},
+    {"name": "phonological transcriber", "module": "chaucer.middle_english.phonology", "status": "implemented"},
+    {"name": "final -e scansion validator", "module": "chaucer.middle_english.scansion", "status": "implemented"},
+    {"name": "project manifest", "module": "chaucer.manifest", "status": "implemented"},
+    {"name": "Middle English corpus ingest", "module": "chaucer.corpus", "status": "implemented"},
     {"name": "generation pipeline", "module": null, "status": "not started"}
   ]
 }

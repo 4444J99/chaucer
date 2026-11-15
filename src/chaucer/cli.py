@@ -152,7 +152,7 @@ def _cmd_manifest(args: argparse.Namespace) -> int:
 
 
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(prog="hand-script", description=__doc__)
+    parser = argparse.ArgumentParser(prog="chaucer", description=__doc__)
     sub = parser.add_subparsers(dest="command", required=True)
 
     t = sub.add_parser("transcribe", help="Middle English text to syllabified IPA")

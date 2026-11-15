@@ -7339,7 +7339,7 @@
       "text": "His tale anon, and seyde in this manere."
     }
   ],
-  "schema": "hand-script.corpus-report/1",
+  "schema": "chaucer.corpus-report/1",
   "source": {
     "file": "chaucer_gp_skeat.txt",
     "sha256": "9003d7e77eaad561fdfa5e0d5770ee4235e5bcf4c17ffefa7edc5c48cbcd27ac"

@@ -8,8 +8,8 @@ from pathlib import Path
 
 import pytest
 
-from hand_script import manifest
-from hand_script.cli import main
+from chaucer import manifest
+from chaucer.cli import main
 
 # Ids cited in the owner-goals file, domain 3.
 GOALS_THREADS = {
@@ -97,7 +97,7 @@ def test_cli_manifest_rejects_bad_file(tmp_path, capsys):
 
 def test_manifest_file_is_the_packaged_one():
     path = Path(manifest.__file__).parent / "data" / "project_manifest.json"
-    assert json.loads(path.read_text("utf-8"))["project"] == "hand-script"
+    assert json.loads(path.read_text("utf-8"))["project"] == "chaucer"
 
 
 def test_validate_rejects_non_object_top_level():

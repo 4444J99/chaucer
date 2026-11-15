@@ -21,7 +21,7 @@ from typing import Any
 
 from .middle_english import Lexicon, scan_line, validate
 
-SCHEMA = "hand-script.corpus-report/1"
+SCHEMA = "chaucer.corpus-report/1"
 
 
 class CorpusError(ValueError):
